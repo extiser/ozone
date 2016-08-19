@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "directories": {},
   "dependencies": {
+    "jquery": "^3.1.0",
     "slick-carousel": "^1.6.0"
   },
   "devDependencies": {

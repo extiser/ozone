@@ -1,0 +1,7 @@
+mixin change-language(data)
+  .change-language
+    for item in languages
+      if (item.active == true)
+        .change-language__item._active #{item.name}
+      else
+        a(href=item.slug title=item.name).change-language__item #{item.name}

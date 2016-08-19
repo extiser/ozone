@@ -1,2 +1,9 @@
 mixin menu(data)
   .menu
+    for page in pages
+      if (page.active == true)
+        .menu__item._active
+          span #{page.title}
+      else
+        .menu__item
+          a(href=page.slug) #{page.title}
