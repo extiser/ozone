@@ -1,18 +1,11 @@
-/* Your custom fonts here */
+@include font-face(PTSans-Regular, "../fonts/PTSans-Regular");
+$PTSans-Regular: 'PTSans-Regular', Helvetica, Arial, sans-serif;
 
-/* Example
+@include font-face(GothamPro-Bold, "../fonts/GothamPro-Bold");
+$GothamPro-Bold: 'GothamPro-Bold', Helvetica, Arial, sans-serif;
 
-@font-face {
-    font-family: 'CustomFont';
-    src: url('../fonts/Custom-Font.eot');
-    src: url('../fonts/Custom-Font.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Custom-Font.woff') format('woff'),
-         url('../fonts/Custom-Font.svg#custom_font') format('svg');
-    font-weight: 400;       // For normal width. It could has another value   
-    font-style: normal;     // Also could has another value
-    }
+@include font-face(GothamPro-Light, "../fonts/GothamPro-Light");
+$GothamPro-Light: 'GothamPro-Light', Helvetica, Arial, sans-serif;
 
-
-// Var for using custom font
-$CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
-*/
+@include font-face(GothamPro-Medium, "../fonts/GothamPro-Medium");
+$GothamPro-Medium: 'GothamPro-Medium', Helvetica, Arial, sans-serif;

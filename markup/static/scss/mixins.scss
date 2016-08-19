@@ -1,32 +1,48 @@
-// Mixins.
+// font-face import
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff ttf svg) {
+  $src: null;
+  $extmods: (
+  eot: "?",
+  svg: "#" + str-replace($name, " ", "_")
+  );
+  $formats: (
+  otf: "opentype",
+  ttf: "truetype"
+  );
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+  @font-face {
+    font-family: quote($name);
+    font-weight: $weight;
+    font-style: $style;
 
-@mixin nl {
-    margin: 0;
-    padding: 0;
-    text-indent: 0;
-    list-style: none;
-    list-style-position: outside;
+    src: $src;
+  }
 }
 
-@mixin cf {
-    &:before,
-    &:after {
-        display: table;
-        content: "";
-    }
+// alignment
 
-    &:after {
-        clear: both;
-    }
+@mixin vartical-center {
+  position: absolute;
+  top: 50%;
 
-    .lt-ie8 & {
-        zoom: 1;
-    }
+  transform: translateY(-50%);
 }
 
-@mixin blocks-justify {
-    text-align: justify;
-    text-justify: newspaper;
+@mixin horizontal-center {
+  position: absolute;
+  left: 50%;
+
+  transform: translateX(-50%);
 }
 
-// You can add your own mixins here:
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+}

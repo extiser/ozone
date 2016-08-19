@@ -21,7 +21,9 @@ module.exports = {
         "webpack": {
             "useHMR": false
         },
-        "jsPathsToConcatBeforeModulesJs": [],
+        "jsPathsToConcatBeforeModulesJs": [
+            'node_modules/slick-carousel/slick/slick.js'
+        ],
         "lintJsCodeBeforeModules": false,
         "jsPathsToConcatAfterModulesJs": [],
         "lintJsCodeAfterModules": false
