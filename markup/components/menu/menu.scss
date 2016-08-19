@@ -1,3 +1,105 @@
 .menu {
-  
+  position: relative;
+
+  height: 70px;
+  &__mobile {
+    z-index: 1;
+
+    display: none;
+
+    @include bg($menu);
+    @include vertical-center;
+    @media screen and (max-width: 740px) {
+      display: block;
+    }
+    &._active {
+      @include bg($close);
+    }
+  }
+  &__list {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: stretch;
+    @media screen and (max-width: 740px) {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+
+      display: block;
+      display: none;
+
+      width: 255px;
+      padding-top: 7px;
+      padding-bottom: 10px;
+
+      background-color: $green;
+    }
+    @media screen and (max-width: 420px) {
+      // width: 230px;
+    }
+    @media screen and (max-width: 380px) {
+      width: 230px;
+    }
+    @media screen and (max-width: 320px) {
+      width: 180px;
+    }
+  }
+  &__item {
+    margin-right: 32px;
+
+    text-transform: lowercase;
+
+    color: $light-gray;
+
+    font-family: $GothamPro-Light;
+    font-size: 20px;
+    line-height: 1;
+    line-height: 68px;
+    @media screen and (max-width: 740px) {
+      display: block;
+
+      box-sizing: border-box;
+      width: 100%;
+      height: 56px;
+      padding-left: 40px;
+
+      font-size: 30px;
+      line-height: 56px;
+    }
+    @media screen and (max-width: 420px) {
+      font-size: 25px;
+    }
+    @media screen and (max-width: 320px) {
+      padding-left: 30px;
+
+      font-size: 20px;
+    }
+    &._active {
+      color: $green;
+      border-bottom: 2px solid $green;
+      @media screen and (max-width: 740px) {
+        color: $white;
+        border-bottom: 0;
+        background-color: $gray;
+      }
+    }
+    &:hover {
+      @media screen and (min-width: 1200px) {
+        cursor: default;
+      }
+    }
+    a {
+      color: $light-gray;
+      @media screen and (max-width: 740px) {
+        color: $gray;
+        display: block;
+      }
+      &:hover {
+        @media screen and (min-width: 1200px) {
+          color: $green;
+        }
+      }
+    }
+  }
 }

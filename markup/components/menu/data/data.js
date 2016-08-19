@@ -3,12 +3,12 @@ data = {
   {
     title: 'о нас',
     slug: '#',
-    active: true
+    active: false
   },
   {
     title: 'клубы',
     slug: '#',
-    active: false
+    active: true
   },
   {
     title: 'сервисы',
