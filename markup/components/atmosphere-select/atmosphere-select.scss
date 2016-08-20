@@ -1,0 +1,139 @@
+.atmosphere-select {
+  position: relative;
+
+  height: 360px;
+  @media screen and (max-width: 740px) {
+    height: 315px;
+  }
+}
+
+.atmosphere-select-content {
+  @include absolute-center;
+  @media screen and (max-width: 1024px) {
+    width: 85%;
+  }
+}
+
+.select {
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 580px) {
+    display: block;
+  }
+  &__label {
+    margin-right: 30px;
+
+    color: $green;
+
+    font-family: $GothamPro-Medium;
+    font-size: 28px;
+    @media screen and (max-width: 768px) {
+      font-size: 28px;
+    }
+    @media screen and (max-width: 580px) {
+      margin-right: 0;
+      margin-bottom: 38px;
+
+      text-align: center;
+    }
+    span {
+      color: $gray;
+    }
+  }
+}
+
+.select-item {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 370px;
+  height: 60px;
+
+  border: 2px solid $green;
+  @media screen and (max-width: 768px) {
+    width: 270px;
+  }
+  @media screen and (max-width: 580px) {
+    width: 100%;
+  }
+  &:hover {
+    .select-item-list {
+      visibility: visible;
+
+      opacity: 1;
+    }
+  }
+  &__title {
+    position: absolute;
+    left: 25px;
+
+    text-transform: lowercase;
+
+    font-family: $GothamPro-Light;
+    font-size: 20px;
+
+    @include vertical-center;
+  }
+  &:after {
+    position: absolute;
+    right: 28px;
+
+    content: "";
+
+    @include bg($arrow-down);
+    @include vertical-center;
+  }
+}
+
+.select-item-list {
+  position: absolute;
+  z-index: 1;
+
+  visibility: hidden;
+
+  width: 372px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+
+  transition: all .4s ease-in-out;
+
+  opacity: 0;
+  border-radius: 20px;
+  background-color: $green;
+
+  @include absolute-center;
+  @media screen and (max-width: 768px) {
+    width: 272px;
+  }
+  @media screen and (max-width: 580px) {
+    width: 102%;
+  }
+  &__item {
+    display: block;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+
+    text-transform: uppercase;
+
+    color: $gray;
+
+    font-family: $GothamPro-Light;
+    font-size: 20px;
+    line-height: 1;
+    @media screen and (max-width: 320px) {
+      font-size: 18px;
+    }
+    &:hover {
+      @media screen and (min-width: 1200px) {
+        color: $white;
+        background-color: $gray;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+mixin atmosphere-select(data)
+  .atmosphere-select
+    .atmosphere-select-content
+      .select
+        .select__label атмосфера 
+          span для
+        .select-item 
+          .select-item__title выбрать
+          .select-item-list
+            for item in select
+              a(href=item.link title=item.name).select-item-list__item #{item.name}
