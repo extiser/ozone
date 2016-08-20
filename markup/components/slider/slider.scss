@@ -9,6 +9,22 @@
   @media screen and (max-width: 420px) {
     max-height: 550px;
   }
+  &._gallery {
+    background-color: $gray;
+    .slider-img {
+      opacity: .5;
+    }
+    .slider-item-content {
+      &__caption {
+        max-width: 670px;
+        margin-right: auto;
+        margin-left: auto;
+
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
 }
 
 .slider-item {
@@ -16,6 +32,8 @@
 }
 
 .slider-img {
+  z-index: 0;
+
   height: 630px;
 
   background-repeat: no-repeat;
@@ -30,6 +48,8 @@
 }
 
 .slider-item-content {
+  z-index: 1;
+
   width: 75%;
 
   text-align: center;

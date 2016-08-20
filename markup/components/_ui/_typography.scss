@@ -1,7 +1,24 @@
 a {
-  text-decoration: none;
   transition: all .4s ease-in-out;
+  text-decoration: none;
   &:hover {
     cursor: pointer;
   }
+}
+
+p {
+  color: #777;
+
+  font-family: $PTSans-Regular;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h2 {
+  color: $gray;
+
+  font-family: $GothamPro-Medium;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 36px;
 }

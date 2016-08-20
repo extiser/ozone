@@ -2,8 +2,12 @@
 @import "typography";
 
 .button {
+  display: inline-block;
+
   box-sizing: border-box;
   padding: 21px 58px;
+
+  text-transform: lowercase;
 
   color: $green;
   border: 1px solid $green;
@@ -17,5 +21,39 @@
       color: $white;
       background-color: $green;
     }
+  }
+  &._small {
+    padding: 18px 40px 15px;
+
+    font-size: 16px;
+  }
+}
+
+.title {
+  position: relative;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: $gray;
+
+  font-family: $GothamPro-Light;
+  font-size: 36px;
+  &:after {
+    bottom: 30px;
+
+    display: block;
+
+    width: 30px;
+    height: 3px;
+
+    content: "";
+
+    background-color: $green;
+
+    @include horizontal-center;
   }
 }

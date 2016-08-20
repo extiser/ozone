@@ -12,5 +12,19 @@ var data = {
       link: '#',
       button: 'подробнее'
     }
+  ],
+  gallery: [
+    {
+      img: '%=static=%images/assets/slider/gallery-slide-1.jpg',
+      text: 'Занимаясь спортом, мы поддерживаем свое здоровье и тело. Мы укрепляемся, становимся более сильными и уверенными в себе',
+      link: '#',
+      button: 'подробнее'
+    },
+    {
+      img: '%=static=%images/assets/slider/gallery-slide-2.jpg',
+      text: 'Занимайтесь спортом для здорового тела и духа',
+      link: '#',
+      button: 'подробнее'
+    }
   ]
 }

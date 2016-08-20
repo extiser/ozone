@@ -1,5 +1,6 @@
 mixin slider(data, page)
-  .slider.jsSlider 
+  - var modifiers = attributes.class || '';
+  .slider.jsSlider(class="#{modifiers}")
     for item in page
       .slider-item 
         .slider-item-content

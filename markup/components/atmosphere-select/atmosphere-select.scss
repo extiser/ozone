@@ -1,5 +1,6 @@
 .atmosphere-select {
   position: relative;
+  z-index: 10;
 
   height: 360px;
   @media screen and (max-width: 740px) {

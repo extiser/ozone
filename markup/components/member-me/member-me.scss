@@ -1,0 +1,47 @@
+.member-me {
+  &__wrapper {
+    display: flex;
+
+    @extend .wrapper;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 1024px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    @media screen and (max-width: 480px) {
+      display: block;
+
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  &__left {
+    margin-right: 30px;
+    @media screen and (max-width: 1024px) {
+      width: 50%;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+    img {
+      margin: 0;
+      @media screen and (max-width: 1024px) {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.member-me-content {
+  max-width: 410px;
+  padding-bottom: 10px;
+  &__title {
+    margin-top: 0;
+  }
+  &__text {
+    margin-bottom: 24px;
+  }
+}
