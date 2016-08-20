@@ -1,6 +1,58 @@
-@import 'slick-global/slick.scss';
-@import 'slick-global/slick-theme.scss';
+@import "slick-global/slick.scss";
+@import "slick-global/slick-theme.scss";
 
 .slider {
-  
+  max-height: 630px;
+  @media screen and (max-width: 740px) {
+    max-height: 400px;
+  }
+  @media screen and (max-width: 420px) {
+    max-height: 550px;
+  }
+}
+
+.slider-item {
+  position: relative;
+}
+
+.slider-img {
+  height: 630px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 740px) {
+    height: 400px;
+  }
+  @media screen and (max-width: 420px) {
+    height: 550px;
+  }
+}
+
+.slider-item-content {
+  width: 75%;
+
+  text-align: center;
+
+  @include absolute-center;
+  @media screen and (max-width: 740px) {
+    width: 90%;
+  }
+  &__caption {
+    margin-bottom: 50px;
+
+    color: $white;
+
+    font-family: $GothamPro-Light;
+    font-size: 48px;
+    line-height: 60px;
+    @media screen and (max-width: 740px) {
+      font-size: 23px;
+      line-height: 29px;
+    }
+    @media screen and (max-width: 420px) {
+      font-size: 23px;
+      line-height: 29px;
+    }
+  }
 }

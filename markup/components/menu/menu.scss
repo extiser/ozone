@@ -3,7 +3,7 @@
 
   height: 70px;
   &__mobile {
-    z-index: 1;
+    z-index: 2;
 
     display: none;
 
@@ -23,7 +23,7 @@
     align-items: stretch;
     @media screen and (max-width: 740px) {
       position: absolute;
-      z-index: 0;
+      z-index: 1;
       top: 0;
 
       display: block;
@@ -34,9 +34,6 @@
       padding-bottom: 10px;
 
       background-color: $green;
-    }
-    @media screen and (max-width: 420px) {
-      // width: 230px;
     }
     @media screen and (max-width: 380px) {
       width: 230px;
@@ -51,11 +48,17 @@
     text-transform: lowercase;
 
     color: $light-gray;
+    border-bottom: 2px solid transparent;
 
     font-family: $GothamPro-Light;
     font-size: 20px;
     line-height: 1;
     line-height: 68px;
+    @media screen and (max-width: 768px) {
+      margin-right: 22px;
+
+      font-size: 16px;
+    }
     @media screen and (max-width: 740px) {
       display: block;
 
@@ -92,8 +95,9 @@
     a {
       color: $light-gray;
       @media screen and (max-width: 740px) {
-        color: $gray;
         display: block;
+
+        color: $gray;
       }
       &:hover {
         @media screen and (min-width: 1200px) {

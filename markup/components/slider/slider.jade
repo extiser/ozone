@@ -1,2 +1,8 @@
-mixin slider(data)
-  .slider
+mixin slider(data, page)
+  .slider.jsSlider 
+    for item in page
+      .slider-item 
+        .slider-item-content
+          .slider-item-content__caption #{item.text}
+          a(href=item.link title=item.button).button #{item.button}
+        .slider-img(style="background-image: url(#{item.img});")

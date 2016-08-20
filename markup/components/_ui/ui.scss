@@ -1,2 +1,21 @@
-@import 'global-settings';
-@import 'typography';
+@import "global-settings";
+@import "typography";
+
+.button {
+  box-sizing: border-box;
+  padding: 21px 58px;
+
+  color: $green;
+  border: 1px solid $green;
+
+  font-family: $GothamPro-Light;
+  font-size: 20px;
+  line-height: 1;
+  &:hover,
+  &:focus {
+    @media screen and (min-width: 1200px) {
+      color: $white;
+      background-color: $green;
+    }
+  }
+}
