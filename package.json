@@ -5,7 +5,10 @@
   "main": "gulpfile.js",
   "directories": {},
   "dependencies": {
-    "jquery": "^3.1.0",
+    "jquery": "^2.2.3",
+    "jquery-mousewheel": "^3.1.13",
+    "jquery-ui": "^1.12.0",
+    "kinetic": "^5.2.0",
     "slick-carousel": "^1.6.0"
   },
   "devDependencies": {

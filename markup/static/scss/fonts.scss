@@ -1,6 +1,9 @@
 @include font-face(PTSans-Regular, "../fonts/PTSans-Regular");
 $PTSans-Regular: 'PTSans-Regular', Helvetica, Arial, sans-serif;
 
+@include font-face(PTSans-Bold, "../fonts/PTSans-Bold");
+$PTSans-Bold: 'PTSans-Bold', Helvetica, Arial, sans-serif;
+
 @include font-face(GothamPro-Bold, "../fonts/GothamPro-Bold");
 $GothamPro-Bold: 'GothamPro-Bold', Helvetica, Arial, sans-serif;
 

@@ -1,0 +1,15 @@
+mixin instagram(data)
+  .instagram.jsInstagram
+    for item in instagram
+      .instagram-block.jsInstagramBlock
+        .instagram-block__img
+          img(src=item.img alt="")
+        .instagram-block-bottom
+          .instagram-block-bottom__icon
+          .instagram-block-bottom__likes #{item.likes}
+        .instagram-block-meta.jsInstagramBlockMeta
+          .instagram-block-meta-top
+            .instagram-block-meta-top__avatar
+              img(src="%=static=%images/assets/instagram/avatar.jpg" alt="Ozone Fitness Centre")
+            .instagram-block-meta-top__name ozone_fitness_centre
+          .instagram-block-meta__hashtags @styara_fotograf #Repost #OzoneFC #OZoneAthlete #healthyliving #motivation #bodybuilding #fit #fitness #aesthetic #gym #squat #gymaholic #gymrats #gympost #instadaily #Instagram #instamood #instafit #instadaily #picofoftheday

@@ -1,0 +1,188 @@
+.instagram {
+  margin-top: 70px;
+}
+.instagram-block {
+  position: relative;
+
+  float: left;
+  overflow: hidden;
+
+  width: 400px;
+  height: 400px;
+
+  user-select: none;
+  @media screen and (max-width: 740px) {
+    width: 340px;
+    height: 340px;
+  }
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+  &:hover {
+    cursor: default;
+    .instagram-block-bottom {
+      background-color: $green;
+    }
+    .instagram-block-meta {
+      top: 50% !important;
+
+      visibility: visible;
+
+      opacity: 1;
+    }
+  }
+}
+
+
+.instagram-block-bottom {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+
+  display: flex;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  padding-right: 15px;
+  padding-left: 10px;
+
+  transition: all .4s ease-in-out;
+
+  background-color: rgba($black, .6);
+
+  justify-content: space-between;
+  align-items: center;
+  &__icon {
+    @include bg($instagram);
+  }
+  &__likes {
+    position: relative;
+
+    color: $white;
+
+    font-family: $GothamPro-Light;
+    font-size: 14px;
+    line-height: 1;
+    &:before {
+      position: absolute;
+      left: -32px;
+
+      display: block;
+
+      content: "";
+
+      @include bg($likes);
+      @include vertical-center;
+    }
+  }
+}
+
+.instagram-block-meta {
+  position: absolute;
+  z-index: 0;
+  top: 150% !important;
+
+  visibility: hidden;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-right: 45px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+
+  transition: all .4s ease-in-out;
+
+  opacity: 0;
+  background-color: rgba($white, .9);
+
+  @include absolute-center;
+  @media screen and (max-width: 740px) {
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+  }
+  &__hashtags {
+    margin-top: 15px;
+    padding-left: 8px;
+
+    color: #444645;
+
+    font-family: $PTSans-Regular;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.instagram-block-meta-top {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  &__avatar {
+    img {
+      border-radius: 50%;
+    }
+  }
+  &__name {
+    padding-left: 20px;
+
+    color: $gray;
+
+    font-family: $PTSans-Bold;
+    font-size: 18px;
+    line-height: 1;
+  }
+}
+
+
+// smoothDivScroll
+
+.scrollWrapper {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 100%;
+}
+
+.scrollableArea {
+  position: relative;
+
+  width: auto;
+  height: 100%;
+}
+
+
+.scrollingHotSpotLeft,
+.scrollingHotSpotRight {
+  position: absolute;
+  z-index: 200;
+
+  width: 10%;
+  min-width: 75px;
+  height: 100%;
+  @media screen and (max-width: 740px) {
+    display: none !important;
+  }
+}
+
+.scrollingHotSpotLeft {
+  left: 0;
+}
+
+.scrollingHotSpotRight {
+  right: 0;
+}
+
+.scrollingHotSpotLeftVisible,
+.scrollingHotSpotRightVisible {
+  opacity: 0;
+  background-color: transparent;
+}
