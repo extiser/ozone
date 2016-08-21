@@ -7,12 +7,17 @@
 
     display: none;
 
-    @include bg($menu);
+    color: $light-gray;
+
+    font-size: 21px;
+
     @include vertical-center;
     @media screen and (max-width: 740px) {
       display: block;
     }
     &._active {
+      text-indent: -9999px;
+
       @include bg($close);
     }
   }

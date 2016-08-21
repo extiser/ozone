@@ -56,7 +56,9 @@
   justify-content: space-between;
   align-items: center;
   &__icon {
-    @include bg($instagram);
+    color: $white;
+
+    font-size: 30px;
   }
   &__likes {
     position: relative;
@@ -66,15 +68,12 @@
     font-family: $GothamPro-Light;
     font-size: 14px;
     line-height: 1;
-    &:before {
+    .fa {
       position: absolute;
       left: -32px;
 
-      display: block;
+      font-size: 22px;
 
-      content: "";
-
-      @include bg($likes);
       @include vertical-center;
     }
   }

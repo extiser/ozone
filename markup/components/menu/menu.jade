@@ -1,6 +1,7 @@
 mixin menu(data)
   .menu
     .menu__mobile.jsMenuTrigger
+      i.fa.fa-bars
     .menu__list.jsMenuList
       for page in pages
         if (page.active == true)

@@ -1,13 +1,16 @@
 mixin instagram(data)
   .instagram.jsInstagram
     for item in instagram
-      .instagram-block.jsInstagramBlock
+      .instagram-block
         .instagram-block__img
           img(src=item.img alt="")
         .instagram-block-bottom
           .instagram-block-bottom__icon
-          .instagram-block-bottom__likes #{item.likes}
-        .instagram-block-meta.jsInstagramBlockMeta
+            i.fa.fa-instagram
+          .instagram-block-bottom__likes 
+            i.fa.fa-heart
+            | #{item.likes}
+        .instagram-block-meta
           .instagram-block-meta-top
             .instagram-block-meta-top__avatar
               img(src="%=static=%images/assets/instagram/avatar.jpg" alt="Ozone Fitness Centre")

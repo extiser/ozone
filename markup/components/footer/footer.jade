@@ -1,2 +1,19 @@
 mixin footer(data)
-    footer.footer
+  footer.footer
+    .footer-social
+      a(href="#" title="").footer-social__item.footer-social__item--fb
+        i.fa.fa-facebook
+      a(href="#" title="").footer-social__item.footer-social__item--in
+        i.fa.fa-instagram
+      a(href="#" title="").footer-social__item.footer-social__item--sn
+        i.fa.fa-snapchat-ghost
+    .footer-menu
+      for page in pages
+        if (page.active == true)
+          .footer-menu__item._active
+            span #{page.title}
+        else
+          .footer-menu__item
+            a(href=page.slug) #{page.title}
+    .footer__contact +998 91 164 04 40
+    .footer__copyright © 2014 - 2016. ozone fitness centre. all rights reserved
