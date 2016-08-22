@@ -1,0 +1,1112 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marign",
+				"margin-bottom	styl"
+			],
+			[
+				"margin",
+				"margin-bottom	styl"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"c-per",
+				"c-perform-automated__column"
+			],
+			[
+				"conte",
+				"content-center"
+			],
+			[
+				"fon",
+				"font-weight	styl"
+			],
+			[
+				"margn",
+				"margin-bottom	styl"
+			],
+			[
+				"padding",
+				"padding-bottom	styl"
+			],
+			[
+				"padd",
+				"padding-top	styl"
+			],
+			[
+				"c-spe",
+				"c-specialization-industry__column"
+			],
+			[
+				"c-au",
+				"c-automation-accounting-top-baner"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"days",
+				"daysSpan"
+			],
+			[
+				"js-time",
+				"js-timer-days"
+			],
+			[
+				"qer",
+				"querySelector"
+			],
+			[
+				"next",
+				"nextIndex"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"sec",
+				"section-reviews"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"fno",
+				"font-size"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"call",
+				"callback-form	(index.jade)"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"elipse",
+				"elipsecircle	(GUI.scss)"
+			],
+			[
+				"ra",
+				"border-top-left-radius"
+			],
+			[
+				"form",
+				"form-element"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"secti",
+				"section-contact"
+			],
+			[
+				"data",
+				"data-menuanchor"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"po",
+				"position	(slick.scss)"
+			],
+			[
+				"slick-ver",
+				"slick-vertical-slide--active	(fullpage.js)"
+			],
+			[
+				"js-",
+				"js-slick-vertical	(slick.scss)"
+			],
+			[
+				"section-teachers-lis",
+				"section-teachers-list-item"
+			],
+			[
+				"section-teachers-li",
+				"section-teachers-list-item"
+			],
+			[
+				"src",
+				"src=\"%=static=%images"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"font-fa",
+				"font-family	(mixins.scss)"
+			],
+			[
+				"section-elite-sli",
+				"section-elite-slide__img"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"section-education-bot",
+				"section-education-bottom-item"
+			],
+			[
+				"section-education-bo",
+				"section-education-bottom-item__text"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"marig",
+				"margin-top	(fullpage.scss)"
+			],
+			[
+				"bott",
+				"bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"section-gallery-sl",
+				"section-gallery-slide-information"
+			],
+			[
+				"section-gallery-s",
+				"section-gallery-slide-information"
+			],
+			[
+				"tarns",
+				"transform"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"section-map-information-con",
+				"section-map-information-contact__item"
+			],
+			[
+				"sect",
+				"section-map-information"
+			],
+			[
+				"So",
+				"SourceSansPro-Regular	(fonts.scss)"
+			],
+			[
+				"Pro",
+				"ProbaPro-SemiBold	(fonts.scss)"
+			],
+			[
+				"section-about-adv",
+				"section-about-advantages-item"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"Pr",
+				"ProbaPro-Light	(fonts.scss)"
+			],
+			[
+				"P",
+				"ProbaPro-SemiBold	(fonts.scss)"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"section",
+				"section-top"
+			],
+			[
+				"rem",
+				"rem-calc	(mixins.scss)"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"ali",
+				"alignItems"
+			],
+			[
+				"jus",
+				"justifyContent"
+			],
+			[
+				"he",
+				"header	(header.jade)"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"con",
+				"contents__item"
+			],
+			[
+				"art",
+				"article-video"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"site",
+				"sitemap-page-item"
+			],
+			[
+				"fo",
+				"footer-menu"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ab",
+				"about-page	(about.jade)"
+			],
+			[
+				"dire",
+				"direct-top"
+			],
+			[
+				"rea",
+				"read-more"
+			],
+			[
+				"re",
+				"read-more"
+			],
+			[
+				"marin",
+				"margin-right"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"butt",
+				"button	(GUI.scss)"
+			],
+			[
+				"med",
+				"medium-8"
+			],
+			[
+				"fom",
+				"form__label"
+			],
+			[
+				"ex",
+				"expert-settings"
+			],
+			[
+				"e",
+				"expert-questions"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"for",
+				"form__field"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"border-bot",
+				"border-bottom"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"me",
+				"medium-4"
+			],
+			[
+				"al",
+				"align-bottom"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"log",
+				"login-page-form-native"
+			],
+			[
+				"login-pa",
+				"login-page-form"
+			],
+			[
+				"l",
+				"login-page-form"
+			],
+			[
+				"login",
+				"login-page"
+			],
+			[
+				"lo",
+				"login-page-form-social"
+			],
+			[
+				"sho",
+				"show-more"
+			],
+			[
+				"fn",
+				"font-weight"
+			],
+			[
+				"be",
+				"best-experts"
+			],
+			[
+				"experts-rate",
+				"experts-rate-item"
+			],
+			[
+				"best-ex",
+				"best-experts-item"
+			],
+			[
+				"sin",
+				"single"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"vi",
+				"violet"
+			],
+			[
+				"single-ask-log",
+				"single-ask-login-popup-social"
+			],
+			[
+				"sing",
+				"single-ask-login"
+			],
+			[
+				"singl",
+				"single-content"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"new",
+				"Tasks: New"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 526.0,
+		"history":
+		[
+			"cd e:/git/svadbavo-2015/",
+			"update",
+			"export LC_NUMERIC=C",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"view.settings().get('syntax')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/ozone/markup"
+	],
+	"file_history":
+	[
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/scroll-text.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-zadachi-po-otraslyam/c-perform-automated.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-raboty-uridicheskih-otdelov/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/konsultacii/c-prices.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-buhgalterskogo-ucheta/c-automation-accounting.styl",
+		"/Users/extiser/Downloads/temp/c-typical-products temp.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-zadachi-po-otraslyam/c-specialization-industry.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/sprite.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-buhgalterskogo-ucheta/c-comprehensive-automation.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/integracii-s-1s/nastroika-obmenov-dannymi-mezhdu-programmami/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-bpm/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-buhgalterskogo-ucheta/c-other-automation-tasks.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/frp/main-functions-frp.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/integracii-s-1s/perenos-dannyh-1s/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/integracii-s-1s/integracii-1s-s-saitami/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/bdds/c-accordion.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/frp/bdds/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/integracii-s-1s/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/frp/c-directions-automate.styl",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/edo/index.php",
+		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-hrm/index.php",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.scss",
+		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.jade",
+		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.js",
+		"/Users/extiser/git/k-landing/markup/components/modal/modal.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.scss",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.jade",
+		"/Users/extiser/git/k-landing/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/section-gallery.jade",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.js",
+		"/Users/extiser/git/k-landing/markup/components/fullpage.js/fullpage.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-top/section-top.jade",
+		"/Users/extiser/git/k-landing/markup/components/fp-nav/fp-nav.scss",
+		"/Users/extiser/git/k-landing/markup/components/modal/modal.jade",
+		"/Users/extiser/git/k-landing/markup/components/callback-form/callback-form.scss",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.jade",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.js",
+		"/Users/extiser/git/k-landing/markup/components/modal/modal.js",
+		"/Users/extiser/git/k-landing/markup/components/timer/timer.scss",
+		"/Users/extiser/git/k-landing/markup/pages/index.jade",
+		"/Users/extiser/git/k-landing/markup/components/fp-nav/fp-nav.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/section-elite.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.jade",
+		"/Users/extiser/git/k-landing/markup/components/header/header.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-contact/section-contact.scss",
+		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.jade",
+		"/Users/extiser/git/k-landing/markup/static/scss/vars.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-map/section-map.jade",
+		"/Users/extiser/git/k-landing/markup/components/section-about/section-about.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/mixins.scss",
+		"/Users/extiser/git/k-landing/markup/components/footer/footer.js",
+		"/Users/extiser/git/k-landing/markup/components/section-teachers/section-teachers.sass",
+		"/Users/extiser/git/k-landing/markup/components/section-education/section-education.sass",
+		"/Users/extiser/git/k-landing/markup/static/scss/common.scss",
+		"/Users/extiser/git/k-landing/markup/components/default_component_scheme.json",
+		"/Users/extiser/git/k-landing/tars-config.js",
+		"/Users/extiser/git/k-landing/markup/components/section-reviews/section-reviews.sass",
+		"/Users/extiser/git/k-landing/markup/components/slick.js/slick.js",
+		"/Users/extiser/git/k-landing/markup/components/slick.js/slick.scss",
+		"/Users/extiser/git/k-landing/node_modules/slick-carousel/slick/slick.scss",
+		"/Users/extiser/git/k-landing/markup/static/js/separate-js/svg4everybody.min.js",
+		"/Users/extiser/git/k-landing/markup/static/js/separate-js/html5shiv-3.7.2.min.js",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.otf",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.woff",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.svg",
+		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.otf",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
+		"/Users/extiser/git/k-landing/markup/components/section-top/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/section-map/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/section-gallery/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/section-elite/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/section-education/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/section-about/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/header/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/header/header.scss",
+		"/Users/extiser/git/k-landing/markup/components/head/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/head/head.jade",
+		"/Users/extiser/git/k-landing/markup/components/change-language/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.scss",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.js",
+		"/Users/extiser/git/k-landing/markup/components/call-me/data/data.js",
+		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.scss",
+		"/Users/extiser/git/k-landing/markup/components/_template/data/data.js",
+		"/Users/extiser/git/k-landing/markup/static/scss/normalize.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.sprite.mustache",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.svg-fallback-sprite.mustache",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.svg-sprite.mustache",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite-ie.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite_96.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-fallback-sprite.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-sprite.scss",
+		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
+		"/Users/extiser/git/k-landing/markup/static/js/main.js",
+		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.jade",
+		"/Users/extiser/git/sovets-pro/node_modules/foundation-sites/scss/util/_unit.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.scss",
+		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.jade"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/",
+			"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s",
+			"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Выполним автоматзацию на базе",
+			"Выбор",
+			"scroll",
+			"Реализованные",
+			"реализов",
+			"task",
+			"iconbu",
+			"specialization-icon-menu15",
+			"c-accord",
+			"Направления автоматизации финансового ",
+			"fp-nav",
+			".section-elite-slide",
+			"(max-width: 1920px)",
+			"(max-width: 1360px)",
+			"(max-width: 1920px)",
+			"margin-top",
+			"ol",
+			"fullpage",
+			"fp-tableCell",
+			"}",
+			"{",
+			".section-gallery-control",
+			"h1",
+			"img",
+			"шьп",
+			"offcanvas",
+			"off",
+			"/",
+			".form__label",
+			"accord",
+			"li",
+			".experts-favourite",
+			".form__top-label.form__label",
+			"label",
+			".meta-window-social-item",
+			".login-page-form-native",
+			".login-page-form-social",
+			".experts-rate__item",
+			"zodiac",
+			"Cambria-Regular",
+			" data-icon=\"\"",
+			".zodiac__item",
+			"links",
+			"Links",
+			"color",
+			"linkcolor",
+			"link",
+			"form",
+			"menu",
+			"-webfont",
+			"url('",
+			"span.main-categories-list-item__icon",
+			" /  оплачено",
+			"\n\n",
+			"\n",
+			"\n\n",
+			"\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"/ оплачено\n\n\n\n",
+			" / оплачено",
+			"\n",
+			"cost: '",
+			"cityFinish:",
+			"cityFinish:'Самарканд',",
+			"cityFinish: ",
+			"city:",
+			"cost: '5",
+			"cost: '6",
+			"cost: '3",
+			"cost: '1",
+			"cost: '2",
+			"weight: '',",
+			";\n",
+			"../img/",
+			"день",
+			"%=staticPrefix=%images/content/",
+			"bda",
+			"yog",
+			"team",
+			"massa",
+			"face",
+			"eyes",
+			"ea",
+			"coach",
+			"bday",
+			"Calibri-Regular",
+			"auto_complete",
+			"auto",
+			".form__label",
+			".form__element",
+			"font-size",
+			"box-sizing",
+			"'",
+			"extend",
+			"</p>",
+			"			<p>",
+			"@media screen and (max-width: 768px) {",
+			"@media screen and (max-width: 480px) {",
+			";\n",
+			"h1",
+			"Custom-Font",
+			"}",
+			"ico",
+			".hide-mobile",
+			"h1",
+			"1",
+			"ul",
+			".hide",
+			"#SkypeButton_Call_vageik_1",
+			"__block",
+			"row",
+			".row",
+			"unisans",
+			".small-article",
+			"a(href=\"#\" ",
+			"ul",
+			"search",
+			"onThumbnailsClick",
+			"pswp",
+			"pswp__item",
+			"openPhotoSwipe",
+			"Thumbnail",
+			"parse",
+			"parseThumbnailElements",
+			".col-lg-11.col-xs-12.col-md-12",
+			".col-lg-1.hidden-xs"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"(max-width: 2560px)",
+			"(max-width: 1440px)",
+			"(max-width: 2560px)",
+			"",
+			".slide-control",
+			"#",
+			".form__label.form__label--inline",
+			".experts-menu-list__wrap",
+			".expert-favourite",
+			".form__top-label",
+			"label.form__label",
+			".meta-window-social__item",
+			".meta-window-form",
+			".meta-window-social",
+			".experts-rate__row",
+			"other-icons",
+			"Cambria-Bold",
+			"Cambria-Italic",
+			"",
+			".icon.zodiac__item",
+			"",
+			"url('../fonts/",
+			"i.main-categories-list-item__icon",
+			"",
+			"\n",
+			"",
+			"cost: ",
+			"        cityFinish: ",
+			"        cityFinish:'Самарканд',",
+			"cityStart: 'Ташкент',\ncityFinish:",
+			"cityFinish:",
+			"cost: 5",
+			"cost: 6",
+			"cost: 3",
+			"cost: 1",
+			"cost: 2",
+			"weight: '24 000',",
+			"%=staticPrefixForCss=%general/",
+			"http://shtukaturkapro.ru/TEMP/",
+			"DINPro-Bold",
+			"Roboto-Regular",
+			".advertising-form__label",
+			".advertising-form__element",
+			"\"",
+			"",
+			"p ",
+			"p",
+			"@media screen and (max-width: 800px) {",
+			"@media screen and (max-width: 768px) {",
+			"Lato-Thin",
+			"Lato-Regular",
+			"Lato-Medium",
+			"Lato-Light",
+			"Lato-Heavy",
+			"Lato-Hairline",
+			"Lato-Black",
+			"Lato-Bold",
+			"}",
+			"",
+			"#SkypeButton_Call_redvoronik_1",
+			"__item",
+			"../fonts/unisans",
+			".similar-article",
+			"li.sidebar-nav__item\n				a(href=\"#\" ",
+			".col-xs-12.col-md-12.col-lg-11",
+			".hidden-xs.col-lg-1",
+			".hidden-xs.hidden-md.col-lg-1",
+			".col-xs-12.col-md-12.col-lg-11.col-lg-offset-1",
+			".col-xs-12.col-md-12",
+			".col-lg",
+			"",
+			".visible-xs-block.visible-md-block",
+			".title.visible-xs-block",
+			"#70cfea",
+			"angular",
+			"SegoeUILight",
+			"../images/",
+			"&--individualCreate",
+			"&--momentGlory",
+			"&--threeColors",
+			"&--theOne",
+			"&--bigDisplay",
+			"../static/images/",
+			"contentRowL",
+			"contentRowF",
+			"content-row-l",
+			"content-row-f",
+			"'",
+			"jQuery",
+			"slider",
+			"\"",
+			"uslugi",
+			"/images",
+			"CalendarByWeek",
+			"www.acccentre.ru",
+			"acccentre.ru",
+			"firm-card-tabs-video-album",
+			"acccentre.iqdemo.ru",
+			"javascript:void(0)",
+			".slide__content__title",
+			"",
+			"/images/",
+			"water",
+			"cr_stone_kg",
+			"cr_stone_m",
+			"sand_m",
+			"sand_kg",
+			"sand_m",
+			"cement",
+			"bags",
+			"plaster_kg",
+			"bags",
+			"plaster_kg",
+			"",
+			"option",
+			"",
+			".pagination__item",
+			"order-by",
+			"/images/",
+			"../images/sprite.png",
+			"/images",
+			"/",
+			"/images",
+			"/images/",
+			"",
+			"../images",
+			"",
+			"b-why-you-need"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "ozone.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
