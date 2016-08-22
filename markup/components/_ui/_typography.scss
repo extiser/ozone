@@ -1,5 +1,5 @@
 a {
-  transition: all .4s ease-in-out;
+  transition: all $transition-time ease-in-out;
   text-decoration: none;
   &:hover {
     cursor: pointer;

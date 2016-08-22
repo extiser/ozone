@@ -9,16 +9,36 @@
   background-clip: initial;
   background-origin: initial;
   background-size: cover;
-  &:before {
+  @media screen and (max-width: 1024px) {
+    background-attachment: scroll;
+    background-size: 100% auto;
+  }
+  @media screen and (max-width: 740px) {
+    background-size: 220% auto;
+  }
+  @media screen and (max-width: 420px) {
+    height: 210px;
+
+    background-size: 180% auto;
+  }
+  &:before,
+  &:after {
     position: absolute;
     z-index: 3;
-    top: 0;
 
     width: 100%;
     height: 23px;
 
     content: "";
+  }
+  &:before {
+    top: 0;
 
-    background: url(%=static=%general/shadow.png) repeat-x top;
+    background: url(%=static=%general/shadow-top.png) repeat-x top;
+  }
+  &:after {
+    bottom: 0;
+
+    background: url(%=static=%general/shadow-bottom.png) repeat-x top;
   }
 }
