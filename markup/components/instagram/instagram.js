@@ -16,9 +16,4 @@ $(document).ready(function () {
   $(".jsInstagram").bind("mouseout", function(){
       $(".jsInstagram").smoothDivScroll("startAutoScrolling");
   });
-
-  // no action on mobile
-  setTimeout(function () {
-     $(".jsInstagram").smoothDivScroll("startAutoScrolling");
-  }, 8000);
 });
