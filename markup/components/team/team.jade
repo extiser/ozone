@@ -1,0 +1,16 @@
+mixin team(data)
+  .team
+    .title команда
+
+    .team-list.jsTeamList
+      for item in team
+        .team-list-item.jsTeamListItem
+          .team-list-item__img.jsTeamListItemImg
+            img(src=item.img alt=item.name)
+          .team-list-item__content
+            .team-list-item__name #{item.name}
+            .team-list-item__pro #{item.pro}
+            .team-list-item__skils
+              ul
+                - for (var i = 0; i < item.skills.length; i++)
+                  li #{item.skills[i]}

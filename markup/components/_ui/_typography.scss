@@ -30,3 +30,44 @@ h2 {
   font-weight: normal;
   line-height: 36px;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  li {
+    position: relative;
+
+    margin-bottom: 15px;
+    padding-left: 18px;
+
+    color: #777;
+
+    font-family: $PTSans-Regular;
+    font-size: 14px;
+    line-height: 20px;
+    @media screen and (width: 768px) {
+      margin-bottom: 10px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 570px) and (orientation: landscape) {
+      margin-bottom: 10px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:before {
+      position: absolute;
+      top: 7px;
+      left: 0;
+
+      width: 7px;
+      height: 7px;
+
+      content: "";
+
+      border-radius: 50%;
+      background-color: $green;
+    }
+  }
+}
