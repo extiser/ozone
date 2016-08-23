@@ -16573,6 +16573,7 @@ $.each( baseEasings, function( name, easeIn ) {
 }));
 
 
+
 (function () {
   $('.select-item').hover(function () {
     $(this).children('.select-item-list').toggleClass('_active');
@@ -16621,7 +16622,6 @@ $(document).ready(function () {
     });
   });
 });
-
 $('.jsSlider').slick({
   infinite: true,
   slidesToShow: 1,
@@ -16632,6 +16632,7 @@ $('.jsSlider').slick({
   cssEase: 'linear',
   arrows: false
 });
+
 $('.jsTeamList').slick({
   responsive: [
     {
