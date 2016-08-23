@@ -4,12 +4,84 @@
 		"selected_items":
 		[
 			[
-				"marign",
-				"margin-bottom	styl"
+				"padd",
+				"padding"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"fn",
+				"font-size"
+			],
+			[
+				"js",
+				"jsTeamListItemCount"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"PT",
+				"PTSans-Regular"
 			],
 			[
 				"margin",
-				"margin-bottom	styl"
+				"margin-bottom"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"tem",
+				"team-list"
+			],
+			[
+				"s",
+				"skills	(data.js)"
+			],
+			[
+				"tea",
+				"team-list-item"
+			],
+			[
+				"te",
+				"team-list"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"a",
@@ -24,10 +96,6 @@
 				"content-center"
 			],
 			[
-				"fon",
-				"font-weight	styl"
-			],
-			[
 				"margn",
 				"margin-bottom	styl"
 			],
@@ -36,20 +104,12 @@
 				"padding-bottom	styl"
 			],
 			[
-				"padd",
-				"padding-top	styl"
-			],
-			[
 				"c-spe",
 				"c-specialization-industry__column"
 			],
 			[
 				"c-au",
 				"c-automation-accounting-top-baner"
-			],
-			[
-				"text",
-				"text-decoration"
 			],
 			[
 				"margi",
@@ -96,10 +156,6 @@
 				"section-reviews"
 			],
 			[
-				"pad",
-				"padding-left"
-			],
-			[
 				"fno",
 				"font-size"
 			],
@@ -112,10 +168,6 @@
 				"font-size"
 			],
 			[
-				"visi",
-				"visibility"
-			],
-			[
 				"trans",
 				"transition"
 			],
@@ -126,14 +178,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"elipse",
@@ -202,10 +246,6 @@
 			[
 				"fun",
 				"function"
-			],
-			[
-				"max-",
-				"max-height"
 			],
 			[
 				"fle",
@@ -474,51 +514,19 @@
 			[
 				"sho",
 				"show-more"
-			],
-			[
-				"fn",
-				"font-weight"
-			],
-			[
-				"be",
-				"best-experts"
-			],
-			[
-				"experts-rate",
-				"experts-rate-item"
-			],
-			[
-				"best-ex",
-				"best-experts-item"
-			],
-			[
-				"sin",
-				"single"
-			],
-			[
-				"paddi",
-				"padding"
-			],
-			[
-				"vi",
-				"violet"
-			],
-			[
-				"single-ask-log",
-				"single-ask-login-popup-social"
-			],
-			[
-				"sing",
-				"single-ask-login"
-			],
-			[
-				"singl",
-				"single-content"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/pages/club.jade",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -591,10 +599,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/extiser/git/ozone/markup"
+		"/Users/extiser/git/ozone/markup",
+		"/Users/extiser/git/ozone/markup/components",
+		"/Users/extiser/git/ozone/markup/components/slider/data",
+		"/Users/extiser/git/ozone/markup/pages",
+		"/Users/extiser/git/ozone/markup/static",
+		"/Users/extiser/git/ozone/markup/static/js",
+		"/Users/extiser/git/ozone/markup/static/js/libraries",
+		"/Users/extiser/git/ozone/markup/static/js/plugins",
+		"/Users/extiser/git/ozone/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/ozone/markup/components/team/team.js",
+		"/Users/extiser/git/ozone/markup/components/_ui/_typography.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.jade",
+		"/Users/extiser/git/ozone/markup/components/team/data/data.js",
+		"/Users/extiser/git/ozone/markup/pages/club.jade",
+		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
+		"/Users/extiser/git/ozone/markup/components/about-club/about-club.jade",
+		"/Users/extiser/git/ozone/markup/components/about-club/about-club.scss",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/scroll-text.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-zadachi-po-otraslyam/c-perform-automated.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-raboty-uridicheskih-otdelov/index.php",
@@ -713,20 +738,11 @@
 		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.svg-sprite.mustache",
 		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite-ie.scss",
 		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite_96.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-fallback-sprite.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-sprite.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/fonts.scss",
-		"/Users/extiser/git/k-landing/markup/static/js/main.js",
-		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.jade",
-		"/Users/extiser/git/sovets-pro/node_modules/foundation-sites/scss/util/_unit.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/vk-widget/vk-widget.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/experts-list/experts-list.scss",
-		"/Users/extiser/git/sovets-pro/markup/modules/single-content/single-content.jade"
+		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-fallback-sprite.scss"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -744,6 +760,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"768",
+			".item-list",
+			"team",
 			"Выполним автоматзацию на базе",
 			"Выбор",
 			"scroll",
@@ -868,10 +887,7 @@
 			"pswp__item",
 			"openPhotoSwipe",
 			"Thumbnail",
-			"parse",
-			"parseThumbnailElements",
-			".col-lg-11.col-xs-12.col-md-12",
-			".col-lg-1.hidden-xs"
+			"parse"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -879,6 +895,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			".team-list",
+			"item",
 			"(max-width: 2560px)",
 			"(max-width: 1440px)",
 			"(max-width: 2560px)",
@@ -1004,9 +1022,7 @@
 			"/images",
 			"/images/",
 			"",
-			"../images",
-			"",
-			"b-why-you-need"
+			"../images"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1017,8 +1033,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/pages/club.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1065,7 +1111,7 @@
 	"project": "ozone.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
