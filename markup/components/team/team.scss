@@ -1,0 +1,132 @@
+$effectTransition: all .6s ease-in-out;
+
+.team-list {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.team-list-item {
+  position: relative;
+
+  display: flex;
+
+  transition: $effectTransition;
+
+  justify-content: flex-start;
+  align-items: center;
+  &:hover {
+    .team-list-item {
+      &__img {
+        img {
+          &._active {
+            filter: grayscale(0);
+          }
+        }
+      }
+      &__content {
+        visibility: visible;
+
+        opacity: 1;
+      }
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+  &._active {
+    .team-list-item {
+      &__img {
+        img {
+          filter: grayscale(0);
+        }
+      }
+      &__content {
+        z-index: 2;
+        right: 0;
+
+        visibility: visible;
+
+        opacity: 1;
+      }
+    }
+  }
+  &__img {
+    position: relative;
+    z-index: 1;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 357px;
+
+    transition: $effectTransition;
+    img {
+      width: 330px;
+      height: 357px;
+
+      transition: $effectTransition;
+
+      @include horizontal-center;
+      filter: grayscale(100%);
+    }
+  }
+  &__content {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+
+    visibility: hidden;
+
+    box-sizing: border-box;
+    width: 330px;
+    height: 357px;
+    padding: 30px;
+
+    transition: $effectTransition;
+
+    opacity: 0;
+    background-color: $white;
+    @media screen and (max-width: 1024px) {
+      top: 0;
+      right: -100%;
+
+      width: 100%;
+    }
+    @media screen and (width: 768px) {
+      padding: 20px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 570px) and (orientation: landscape) {
+      padding: 20px;
+    }
+  }
+  &__name {
+    margin-bottom: 22px;
+
+    color: $green;
+
+    font-family: $GothamPro-Medium;
+    font-size: 24px;
+    @media screen and (width: 768px) {
+      margin-bottom: 16px;
+
+      font-size: 18px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 570px) and (orientation: landscape) {
+      font-size: 22px;
+    }
+  }
+  &__pro {
+    margin-bottom: 15px;
+
+    color: $gray;
+
+    font-family: $GothamPro-Medium;
+    font-size: 18px;
+    @media screen and (width: 768px) {
+      margin-bottom: 13px;
+
+      font-size: 16px;
+    }
+  }
+}

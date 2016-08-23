@@ -27,7 +27,7 @@
 
 .footer-social {
   &__item {
-    transition: all .4s ease-in-out;
+    transition: all $transition-time ease-in-out;
 
     color: $light-gray;
 

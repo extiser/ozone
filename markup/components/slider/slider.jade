@@ -1,9 +1,10 @@
-mixin slider(data, page)
+mixin slider(data, page, content)
   - var modifiers = attributes.class || '';
   .slider.jsSlider(class="#{modifiers}")
     for item in page
       .slider-item 
-        .slider-item-content
-          .slider-item-content__caption #{item.text}
-          a(href=item.link title=item.button).button #{item.button}
+        - if (content == true)
+          .slider-item-content
+            .slider-item-content__caption #{item.text}
+            a(href=item.link title=item.button).button #{item.button}
         .slider-img(style="background-image: url(#{item.img});")

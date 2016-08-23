@@ -1,0 +1,19 @@
+.about-club {
+  width: 770px;
+  margin: auto;
+  padding-bottom: 45px;
+
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &__content {
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}

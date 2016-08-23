@@ -26,5 +26,19 @@ var data = {
       link: '#',
       button: 'подробнее'
     }
+  ],
+  about: [
+    {
+      img: '%=static=%images/assets/slider/gallery-slide-1.jpg',
+      text: '',
+      link: '',
+      button: ''
+    },
+    {
+      img: '%=static=%images/assets/slider/gallery-slide-2.jpg',
+      text: '',
+      link: '',
+      button: ''
+    }
   ]
 }
