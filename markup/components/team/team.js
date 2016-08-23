@@ -12,9 +12,9 @@ $('.jsTeamList').slick({
       }
     },
     {
-      breakpoint: 768,
+      breakpoint: 820,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     },
