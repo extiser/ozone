@@ -3,7 +3,7 @@
 
   height: 70px;
   &__mobile {
-    z-index: 2;
+    z-index: 6;
 
     display: none;
 
@@ -28,7 +28,7 @@
     align-items: stretch;
     @media screen and (max-width: 740px) {
       position: absolute;
-      z-index: 1;
+      z-index: 5;
       top: 0;
 
       display: block;

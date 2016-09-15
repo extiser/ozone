@@ -1,4 +1,4 @@
-mixin slider(data, page, content)
+mixin slider(data, page, content, button)
   - var modifiers = attributes.class || '';
   .slider.jsSlider(class="#{modifiers}")
     for item in page
@@ -6,5 +6,24 @@ mixin slider(data, page, content)
         - if (content == true)
           .slider-item-content
             .slider-item-content__caption #{item.text}
-            a(href=item.link title=item.button).button #{item.button}
+            - if (button == true)
+              a(href=item.link title=item.button class="button #{item.buttonMod}") #{item.button}
+        .slider-img(style="background-image: url(#{item.img});")
+
+mixin slider-services(data, page)
+  - var modifiers = attributes.class || '';
+  .slider.jsSlider(class="#{modifiers}")
+    for item in page
+      .slider-item 
+        .slider-item-image
+          img(src="%=static=%images/assets/slider/#{item.imageService}" alt="")
+          .slider-item-image__title #{item.text}
+        .slider-img(style="background-image: url(#{item.img});")
+
+mixin slider-trainers(data, page)
+  - var modifiers = attributes.class || '';
+  .slider.jsSlider(class="#{modifiers}")
+    for item in page
+      .slider-item 
+        a(href=item.link title=item.button class="button #{item.buttonMod}") #{item.button}
         .slider-img(style="background-image: url(#{item.img});")

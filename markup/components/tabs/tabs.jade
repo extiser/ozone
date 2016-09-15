@@ -1,0 +1,29 @@
+mixin tabs-control(data, page)
+  - var modifiers = attributes.class || '';
+  .tabs-control.jsTabsControl(class="#{modifiers}")
+    .tabs-control__wrapper
+      - if (page == 'trainers')
+        for item in tabsListTrainers
+          a(href="#" title=item.title data-control-tab=item.link).tabs-control-item.jsTabsControlItem #{item.title}
+      - else
+        for item in tabsList
+          a(href="#" title=item.title data-control-tab=item.link).tabs-control-item.jsTabsControlItem #{item.title}
+
+mixin tabs-content(data, page)
+  .tabs-content.jsTabsContent
+    .tabs-content__wrapper
+      for item in tabsList
+        .tabs-content-item.jsTabsContentItem(data-content-tab=item.link)
+          - if (page == 'services')
+            +slider-services(data, servicesPage)
+          - else if (page == 'trainers')
+            +slider-trainers(data, trainersPage)._trainers
+          - else
+            +slider(data, service, true, true)._small-content
+
+mixin tabs-text(data)
+  .tabs-content.jsTabsContent
+    .tabs-content__wrapper
+      for item in tabsList
+        .tabs-content-text.jsTabsContentText(data-content-tab=item.link) 
+          p #{item.title} #{item.text}

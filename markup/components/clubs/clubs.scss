@@ -1,0 +1,97 @@
+
+.clubs-list {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: stretch;
+  @media screen and (max-width: 420px) {
+    flex-wrap: wrap;
+  }
+}
+
+.clubs-item {
+  width: 50%;
+  padding-bottom: 40px;
+  &:first-child {
+    border-right: 1px solid #ececec;
+  }
+  @media screen and (max-width: 420px) {
+    width: 100%;
+  }
+}
+
+.clubs-block-img {
+  position: relative;
+
+  background-color: $gray;
+  &:hover {
+    .clubs-block-img__img {
+      img {
+        opacity: 1;
+      }
+    }
+  }
+  &__button {
+    z-index: 1;
+
+    @include absolute-center;
+  }
+  &__img {
+    img {
+      display: block;
+
+      width: 100%;
+
+      transition: all .4s ease-in-out;
+
+      opacity: .4;
+    }
+  }
+}
+
+.clubs-info {
+  padding-right: 130px;
+  padding-left: 130px;
+
+  text-align: center;
+  @media screen and (max-width: 1280px) {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  @media screen and (max-width: 800px) {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  @media screen and (max-width: 740px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  &__title {
+    text-transform: none;
+  }
+  &__links {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    a {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+
+      transition: all .2s ease-in-out;
+      text-transform: uppercase;
+
+      color: $gray;
+      border-bottom: 1px solid transparent;
+
+      font-family: $GothamPro-Light;
+      font-size: 16px;
+      &:hover {
+        color: $green;
+        border-bottom-color: $green;
+      }
+    }
+  }
+}

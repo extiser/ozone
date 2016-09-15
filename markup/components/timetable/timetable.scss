@@ -1,0 +1,11 @@
+.timetable {
+  position: relative;
+
+  width: 100%;
+  height: 400px;
+
+  background: url(%=static=%assets/timetable/timetable-bg.jpg) no-repeat center;
+  &__button {
+    @include absolute-center;
+  }
+}

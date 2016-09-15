@@ -2,6 +2,7 @@ $effectTransition: all .6s ease-in-out;
 
 .team-list {
   display: flex;
+  overflow-x: hidden;
 
   justify-content: space-between;
   align-items: center;
@@ -61,6 +62,8 @@ $effectTransition: all .6s ease-in-out;
     height: 357px;
 
     transition: $effectTransition;
+
+    background-color: #dfdfdf;
     @media screen and (min-width: 360px) and (max-width: 1024px) {
       height: auto;
     }

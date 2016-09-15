@@ -1,56 +1,48 @@
 var data = {
   select: [
     {
-        name: 'SPINNING',
-        link: '#'
+      title: 'GYM',
+      link: 'tab1'
     },
     {
-        name: 'IZONE',
-        link: '#'
+      title: 'SPINNING',
+      link: 'tab2'
     },
     {
-        name: 'CROSSFIT',
-        link: '#'
+      title: 'MIND & BODY',
+      link: 'tab3'
     },
     {
-        name: 'TRX',
-        link: '#'
+      title: 'COMBAT',
+      link: 'tab4'
     },
     {
-        name: 'COMBAT ZONE',
-        link: '#'
+      title: 'iZONE',
+      link: 'tab5'
     },
     {
-        name: 'MIND & BODY ZONE',
-        link: '#'
+      title: 'PERSONAL TRAINING',
+      link: 'tab6'
     },
     {
-        name: 'SPA',
-        link: '#'
+      title: 'Spa',
+      link: 'tab7'
     },
     {
-        name: 'PERSONAL TRENINGS',
-        link: '#'
+      title: 'MASSAGE',
+      link: 'tab8'
     },
     {
-        name: 'MASSAGE',
-        link: '#'
+      title: 'SOLARIUM',
+      link: 'tab9'
     },
     {
-        name: 'Nutritionist',
-        link: '#'
+      title: 'NUTRITIONist',
+      link: 'tab10'
     },
     {
-        name: 'TANITA',
-        link: '#'
-    },
-    {
-        name: 'KIDS ZONE',
-        link: '#'
-    },
-    {
-        name: 'SOLARIUM',
-        link: '#'
+      title: 'KIDS Area',
+      link: 'tab11'
     }
   ]
 }

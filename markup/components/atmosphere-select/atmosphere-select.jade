@@ -8,5 +8,5 @@ mixin atmosphere-select(data)
           .select-item__title выбрать
           .select-item-list
             for item in select
-              a(href=item.link title=item.name).select-item-list__item #{item.name}
+              a(href='club.html#' + '#{item.link}' title=item.title target="_blank").select-item-list__item #{item.title}
   .mask

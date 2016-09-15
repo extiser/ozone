@@ -1,0 +1,118 @@
+.map {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: 555px;
+}
+
+.map-info {
+  bottom: 56px;
+
+  box-sizing: border-box;
+  width: 370px;
+  padding: 50px 45px;
+
+  text-align: center;
+
+  background-color: $white;
+
+  font-family: $GothamPro-Light;
+  font-size: 20px;
+
+  @include horizontal-center;
+  @media screen and (max-width: 320px) {
+    width: 300px;
+    padding: 40px 30px;
+  }
+  &:after {
+    bottom: -25px;
+
+    width: 112px;
+    height: 25px;
+
+    content: "";
+
+    background: url(%=static=%assets/map/map-pic.png) no-repeat center;
+
+    @include horizontal-center;
+  }
+  &__address {
+    position: relative;
+
+    padding-bottom: 27px;
+
+    color: #777;
+
+    line-height: 30px;
+    @media screen and (max-width: 320px) {
+      font-size: 16px;
+      line-height: 28px;
+    }
+    &:after {
+      bottom: 0;
+
+      display: block;
+
+      width: 30px;
+      height: 3px;
+
+      content: "";
+
+      background-color: #e4e4e4;
+
+      @include horizontal-center;
+    }
+  }
+  &__email {
+    position: relative;
+
+    display: block;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 27px;
+
+    text-decoration: underline;
+
+    color: $green;
+    &:after {
+      bottom: 0;
+
+      display: block;
+
+      width: 30px;
+      height: 3px;
+
+      content: "";
+
+      background-color: #e4e4e4;
+
+      @include horizontal-center;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__phone {
+    display: block;
+
+    text-decoration: none;
+
+    color: #777;
+
+    line-height: 30px;
+  }
+}
+
+.map-bg {
+  z-index: -1;
+
+  width: 100%;
+  height: 555px;
+
+  background: url(%=static=%assets/map/map-bg.jpg) no-repeat center center;
+
+  @include absolute-center;
+}

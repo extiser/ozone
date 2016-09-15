@@ -1,0 +1,42 @@
+.ezfacility {
+  padding-bottom: 80px;
+  &__wrapper {
+    display: flex;
+
+    @extend .wrapper;
+    justify-content: space-between;
+    align-items: flex-start;
+    @media screen and (max-width: 1024px) {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+    @media screen and (max-width: 740px) {
+      padding-right: 30px;
+      padding-left: 30px;
+
+      flex-wrap: wrap;
+    }
+  }
+  &__content {
+    padding-right: 100px;
+    @media screen and (max-width: 740px) {
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+  &__logo {
+    @media screen and (max-width: 740px) {
+      width: 100%;
+
+      text-align: center;
+    }
+    img {
+      display: block;
+
+      margin-bottom: 25px;
+      @media screen and (max-width: 740px) {
+        margin: 25px auto;
+      }
+    }
+  }
+}

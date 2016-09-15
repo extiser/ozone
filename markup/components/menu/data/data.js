@@ -2,13 +2,13 @@ data = {
   pages: [
   {
     title: 'о нас',
-    slug: '#',
+    slug: 'about.html',
     active: false
   },
   {
     title: 'клубы',
-    slug: '#',
-    active: true
+    slug: 'club.html',
+    active: false
   },
   {
     title: 'сервисы',

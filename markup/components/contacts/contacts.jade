@@ -1,0 +1,30 @@
+mixin contacts(data)
+  .contacts
+    .title контакты
+    .contacts__wrapper
+      .contacts-list
+        .contacts-list-block
+          .contacts-list-block__content
+            .contacts-list-block__title OZoneFC
+            .contacts-list-block__address 
+              p Узбекистан <br>Ташкент 100000 <br>пр. Мустакиллик, 88а <br>(+998-71) 140-70-07
+          .contacts-list-block__map
+            img(src="%=static=%images/assets/contacts/ozone-fc-1.jpg" alt="")
+
+        .contacts-list-block
+          .contacts-list-block__content
+            .contacts-list-block__title OZoneFC
+              sup 2
+            .contacts-list-block__address 
+              p Узбекистан <br>Ташкент 100000 <br>ул. Нукусская, 83  <br>(+998-71) 205-17-71
+          .contacts-list-block__map
+            img(src="%=static=%images/assets/contacts/ozone-fc-2.jpg" alt="")
+
+      .contacts-form
+        form(method="" action="").form
+          input(type="text" value="" placeholder="имя").form__field
+          input(type="text" value="" placeholder="электронная почта").form__field
+          input(type="text" value="" placeholder="телефон").form__field
+          textarea(placeholder="сообщение" rows="10").form__field._textarea
+          .form__submit
+            input(type="submit" value="отправить").button

@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"tabs",
+				"tabs-content-item	(tabs-content.scss)"
+			],
+			[
+				"slid",
+				"sliderItem	(tabs.jade)"
+			],
+			[
+				"slide",
+				"sliderItem	(data.js)"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"win",
+				"winHash"
+			],
+			[
+				"conso",
+				"console.log();"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"tab",
+				"tabTargetTop"
+			],
+			[
+				"ta",
+				"tabTargetTop"
+			],
+			[
+				"link",
+				"linkTab"
+			],
+			[
+				"tabs-cont",
+				"tabs-content	(tabs.jade)"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
 				"padd",
 				"padding"
 			],
@@ -20,10 +72,6 @@
 				"jsTeamListItemCount"
 			],
 			[
-				"visi",
-				"visibility"
-			],
-			[
 				"vis",
 				"visibility"
 			],
@@ -36,16 +84,8 @@
 				"transition"
 			],
 			[
-				"pad",
-				"padding-left"
-			],
-			[
 				"magin",
 				"margin-bottom"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"PT",
@@ -78,10 +118,6 @@
 			[
 				"marign",
 				"margin-bottom"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"a",
@@ -478,55 +514,11 @@
 			[
 				"al",
 				"align-bottom"
-			],
-			[
-				"mi",
-				"middle"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"backgrou",
-				"background-color"
-			],
-			[
-				"log",
-				"login-page-form-native"
-			],
-			[
-				"login-pa",
-				"login-page-form"
-			],
-			[
-				"l",
-				"login-page-form"
-			],
-			[
-				"login",
-				"login-page"
-			],
-			[
-				"lo",
-				"login-page-form-social"
-			],
-			[
-				"sho",
-				"show-more"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "markup/pages/club.jade",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -601,7 +593,11 @@
 	[
 		"/Users/extiser/git/ozone/markup",
 		"/Users/extiser/git/ozone/markup/components",
+		"/Users/extiser/git/ozone/markup/components/head/data",
+		"/Users/extiser/git/ozone/markup/components/menu/data",
+		"/Users/extiser/git/ozone/markup/components/slider",
 		"/Users/extiser/git/ozone/markup/components/slider/data",
+		"/Users/extiser/git/ozone/markup/components/tabs/data",
 		"/Users/extiser/git/ozone/markup/pages",
 		"/Users/extiser/git/ozone/markup/static",
 		"/Users/extiser/git/ozone/markup/static/js",
@@ -611,15 +607,31 @@
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/ozone/markup/components/team/team.js",
-		"/Users/extiser/git/ozone/markup/components/_ui/_typography.scss",
-		"/Users/extiser/git/ozone/markup/components/team/team.scss",
-		"/Users/extiser/git/ozone/markup/components/team/team.jade",
-		"/Users/extiser/git/ozone/markup/components/team/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
+		"/Users/extiser/git/ozone/markup/components/tabs/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/slider/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/slider/slider.jade",
+		"/Users/extiser/git/ozone/markup/pages/index.jade",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.js",
+		"/Users/extiser/git/ozone/markup/components/atmosphere-select/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/atmosphere-select/atmosphere-select.jade",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
 		"/Users/extiser/git/ozone/markup/pages/club.jade",
 		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
-		"/Users/extiser/git/ozone/markup/components/about-club/about-club.jade",
+		"/Users/extiser/git/ozone/markup/components/team/team.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.js",
+		"/Users/extiser/git/ozone/markup/components/_ui/_typography.scss",
+		"/Users/extiser/git/ozone/markup/components/team/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/menu/data/data.js",
+		"/Users/extiser/git/ozone/markup/components/about-content/about-content.jade",
+		"/Users/extiser/git/ozone/markup/components/about-content/about-content.scss",
 		"/Users/extiser/git/ozone/markup/components/about-club/about-club.scss",
+		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
+		"/Users/extiser/git/ozone/markup/components/change-language/change-language.scss",
+		"/Users/extiser/git/ozone/markup/components/slider/slick-global/slick-theme.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.jade",
+		"/Users/extiser/git/ozone/markup/components/about-club/about-club.jade",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/scroll-text.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/.development/src/stylus/partials/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-zadachi-po-otraslyam/c-perform-automated.styl",
 		"/Users/extiser/MAMP/wiseadvice.ru/local/markup/uslugi-1s/avtomatizaciya-na-baze-1s/reshaemye-funkcionalnye-zadachi/avtomatizaciya-raboty-uridicheskih-otdelov/index.php",
@@ -722,23 +734,7 @@
 		"/Users/extiser/git/k-landing/markup/components/section-elite/data/data.js",
 		"/Users/extiser/git/k-landing/markup/components/section-education/data/data.js",
 		"/Users/extiser/git/k-landing/markup/components/section-about/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/header/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/header/header.scss",
-		"/Users/extiser/git/k-landing/markup/components/head/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/head/head.jade",
-		"/Users/extiser/git/k-landing/markup/components/change-language/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.scss",
-		"/Users/extiser/git/k-landing/markup/components/change-language/change-language.js",
-		"/Users/extiser/git/k-landing/markup/components/call-me/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/call-me/call-me.scss",
-		"/Users/extiser/git/k-landing/markup/components/_template/data/data.js",
-		"/Users/extiser/git/k-landing/markup/static/scss/normalize.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.sprite.mustache",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.svg-fallback-sprite.mustache",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprite-generator-templates/scss.svg-sprite.mustache",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite-ie.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/sprite_96.scss",
-		"/Users/extiser/git/k-landing/markup/static/scss/sprites-scss/svg-fallback-sprite.scss"
+		"/Users/extiser/git/k-landing/markup/components/header/data/data.js"
 	],
 	"find":
 	{
@@ -760,6 +756,18 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			",\n      slider: '+slider()'",
+			"+slider()",
+			"slider:",
+			"slider",
+			"slider: function (fullData) {\n        // fullData — объект, который содержит все данные проекта\n        return fullData.slider;\n      }",
+			",\n      slider: function (fullData) {\n        // fullData — объект, который содержит все данные проекта\n        return fullData.slider;\n      }",
+			"return fullData;",
+			"innerComponentData",
+			"return fullData.slider;",
+			"#tab",
+			"link",
+			".jpg",
 			"768",
 			".item-list",
 			"team",
@@ -875,19 +883,7 @@
 			".hide",
 			"#SkypeButton_Call_vageik_1",
 			"__block",
-			"row",
-			".row",
-			"unisans",
-			".small-article",
-			"a(href=\"#\" ",
-			"ul",
-			"search",
-			"onThumbnailsClick",
-			"pswp",
-			"pswp__item",
-			"openPhotoSwipe",
-			"Thumbnail",
-			"parse"
+			"row"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -895,6 +891,18 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"'+slider()'",
+			"slider: +slider()",
+			"slider:",
+			"slider",
+			"",
+			"return fullData.slider;",
+			"slider",
+			"return fullData;",
+			"tab",
+			"target",
+			".png",
 			".team-list",
 			"item",
 			"(max-width: 2560px)",
@@ -1010,19 +1018,7 @@
 			"plaster_kg",
 			"bags",
 			"plaster_kg",
-			"",
-			"option",
-			"",
-			".pagination__item",
-			"order-by",
-			"/images/",
-			"../images/sprite.png",
-			"/images",
-			"/",
-			"/images",
-			"/images/",
-			"",
-			"../images"
+			""
 		],
 		"reverse": false,
 		"show_context": false,
@@ -1033,38 +1029,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "markup/pages/club.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								147,
-								147
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1111,7 +1077,7 @@
 	"project": "ozone.sublime-project",
 	"replace":
 	{
-		"height": 114.0
+		"height": 134.0
 	},
 	"save_all_on_build": true,
 	"select_file":

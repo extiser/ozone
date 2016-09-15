@@ -1,0 +1,17 @@
+extends ./_layout.jade
+
+block content
+  +slider(data, main, true)
+  +about-club
+  +parallax(data, 0)
+  +team(data)
+  +parallax(data, 1)
+  .title Сервисы
+  +tabs-control(data)
+  +tabs-content(data)
+  +facilities
+  +parallax(data, 2)
+  +subscriptions
+  +timetable
+  +map
+  +partners
