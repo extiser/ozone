@@ -39,7 +39,7 @@ $('.jsTeamList').slick({
 
 $(document).ready(function () {
   var screenWidth = $(window).width();
-  if (!isMobile.any) {
+  if (isMobile.android.tablet && !isMobile.apple.device && !isMobile.android.phone && !isMobile.amazon.device && !isMobile.windows.device) {
     var jsTeamListWidth = $('.jsTeamList').width(),
       jsTeamListItemCount = $('.jsTeamListItem').length;
 

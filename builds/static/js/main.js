@@ -16573,7 +16573,6 @@ $.each( baseEasings, function( name, easeIn ) {
 }));
 
 
-
 (function () {
   $('.select-item').hover(function () {
     $(this).children('.select-item-list').toggleClass('_active');
@@ -16584,6 +16583,7 @@ $.each( baseEasings, function( name, easeIn ) {
     $('.select-item').children('.select-item-list').removeClass('_active');
   });
 })();
+
 
 
 
@@ -16628,16 +16628,6 @@ $(document).ready(function () {
   });
 });
 
-$('.jsSlider').slick({
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  dots: true,
-  speed: 600,
-  fade: true,
-  cssEase: 'linear',
-  arrows: false
-});
 $('.jsSubscriptions').slick({
   infinite: false,
   slidesToShow: 4,
@@ -16701,6 +16691,16 @@ $('.jsSubscriptions').slick({
       }
     }
   ]
+});
+$('.jsSlider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: true,
+  speed: 600,
+  fade: true,
+  cssEase: 'linear',
+  arrows: false
 });
 $('.jsTabsControlItem').click(function (e) {
   e.preventDefault();
@@ -16766,7 +16766,7 @@ $('.jsTeamList').slick({
 
 $(document).ready(function () {
   var screenWidth = $(window).width();
-  if (!isMobile.any) {
+  if (isMobile.android.tablet && !isMobile.apple.device && !isMobile.android.phone && !isMobile.amazon.device && !isMobile.windows.device) {
     var jsTeamListWidth = $('.jsTeamList').width(),
       jsTeamListItemCount = $('.jsTeamListItem').length;
 
