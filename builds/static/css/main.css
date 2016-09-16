@@ -4854,55 +4854,6 @@ ul li:before {
   margin-bottom: 24px;
 }
 
-.parallax {
-  position: relative;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-clip: initial;
-  background-origin: initial;
-  background-size: cover;
-}
-
-@media screen and (max-width: 1024px) {
-  .parallax {
-    background-attachment: scroll;
-    background-size: 100% auto;
-  }
-}
-
-@media screen and (max-width: 740px) {
-  .parallax {
-    background-size: 220% auto;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .parallax {
-    height: 210px;
-    background-size: 180% auto;
-  }
-}
-
-.parallax:before, .parallax:after {
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  height: 23px;
-  content: "";
-}
-
-.parallax:before {
-  top: 0;
-  background: url(../images/general/shadow-top.png) repeat-x top;
-}
-
-.parallax:after {
-  bottom: 0;
-  background: url(../images/general/shadow-bottom.png) repeat-x top;
-}
-
 .menu {
   position: relative;
   height: 70px;
@@ -5056,6 +5007,55 @@ ul li:before {
   .menu__item a:hover {
     color: #abd039;
   }
+}
+
+.parallax {
+  position: relative;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-clip: initial;
+  background-origin: initial;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+    background-size: 100% auto;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .parallax {
+    background-size: 220% auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .parallax {
+    height: 210px;
+    background-size: 180% auto;
+  }
+}
+
+.parallax:before, .parallax:after {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 23px;
+  content: "";
+}
+
+.parallax:before {
+  top: 0;
+  background: url(../images/general/shadow-top.png) repeat-x top;
+}
+
+.parallax:after {
+  bottom: 0;
+  background: url(../images/general/shadow-bottom.png) repeat-x top;
 }
 
 .partners {
