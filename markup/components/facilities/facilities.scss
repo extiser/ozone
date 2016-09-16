@@ -20,14 +20,14 @@
 }
 
 .facilities-item {
-  max-width: 28%;
+  width: 28%;
 
   text-align: center;
   @media screen and (max-width: 800px) {
-    max-width: 31%;
+    width: 31%;
   }
   @media screen and (max-width: 660px) {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 40px;
   }
   &__icon {
