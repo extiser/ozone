@@ -4,8 +4,124 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"jsTabs",
+				"jsTabsContentItem"
+			],
+			[
+				"data",
+				"data-content-tab"
+			],
+			[
+				"js",
+				"jsTabsContentItem"
+			],
+			[
 				"tabs",
-				"tabs-content-item	(tabs-content.scss)"
+				"tabs-content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"yo",
+				"your-app-content	(your-app.scss)"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"clu",
+				"clubs-info"
+			],
+			[
+				"map",
+				"map-info"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"subscriptions-lis",
+				"subscriptions-list-item"
+			],
+			[
+				"s",
+				"subscriptions-list-item"
+			],
+			[
+				"fac",
+				"facilities-item	(facilities.scss)"
+			],
+			[
+				"b",
+				"before"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fa",
+				"facilities-item"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"data-cont",
+				"data-content-tab	(tabs.jade)"
 			],
 			[
 				"slid",
@@ -28,10 +144,6 @@
 				"console.log();"
 			],
 			[
-				"pad",
-				"padding-top"
-			],
-			[
 				"tab",
 				"tabTargetTop"
 			],
@@ -48,28 +160,12 @@
 				"tabs-content	(tabs.jade)"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
 				"out",
 				"outline"
 			],
 			[
 				"fn",
 				"font-size"
-			],
-			[
-				"js",
-				"jsTeamListItemCount"
 			],
 			[
 				"vis",
@@ -92,10 +188,6 @@
 				"PTSans-Regular"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"max-",
 				"max-width"
 			],
@@ -104,20 +196,12 @@
 				"team-list"
 			],
 			[
-				"s",
-				"skills	(data.js)"
-			],
-			[
 				"tea",
 				"team-list-item"
 			],
 			[
 				"te",
 				"team-list"
-			],
-			[
-				"marign",
-				"margin-bottom"
 			],
 			[
 				"a",
@@ -146,10 +230,6 @@
 			[
 				"c-au",
 				"c-automation-accounting-top-baner"
-			],
-			[
-				"margi",
-				"margin"
 			],
 			[
 				"z",
@@ -204,10 +284,6 @@
 				"font-size"
 			],
 			[
-				"trans",
-				"transition"
-			],
-			[
 				"call",
 				"callback-form	(index.jade)"
 			],
@@ -228,16 +304,8 @@
 				"form-element"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"secti",
 				"section-contact"
-			],
-			[
-				"data",
-				"data-menuanchor"
 			],
 			[
 				"over",
@@ -408,10 +476,6 @@
 				"margin"
 			],
 			[
-				"con",
-				"contents__item"
-			],
-			[
 				"art",
 				"article-video"
 			],
@@ -450,70 +514,6 @@
 			[
 				"marin",
 				"margin-right"
-			],
-			[
-				"min",
-				"min-width"
-			],
-			[
-				"col",
-				"columns"
-			],
-			[
-				"ti",
-				"title"
-			],
-			[
-				"butt",
-				"button	(GUI.scss)"
-			],
-			[
-				"med",
-				"medium-8"
-			],
-			[
-				"fom",
-				"form__label"
-			],
-			[
-				"ex",
-				"expert-settings"
-			],
-			[
-				"e",
-				"expert-questions"
-			],
-			[
-				"row",
-				"rows"
-			],
-			[
-				"op",
-				"option"
-			],
-			[
-				"for",
-				"form__field"
-			],
-			[
-				"m",
-				"margin-top"
-			],
-			[
-				"border-bot",
-				"border-bottom"
-			],
-			[
-				"color",
-				"color"
-			],
-			[
-				"me",
-				"medium-4"
-			],
-			[
-				"al",
-				"align-bottom"
 			]
 		]
 	},
@@ -593,33 +593,56 @@
 	[
 		"/Users/extiser/git/ozone/markup",
 		"/Users/extiser/git/ozone/markup/components",
-		"/Users/extiser/git/ozone/markup/components/head/data",
-		"/Users/extiser/git/ozone/markup/components/menu/data",
-		"/Users/extiser/git/ozone/markup/components/slider",
 		"/Users/extiser/git/ozone/markup/components/slider/data",
-		"/Users/extiser/git/ozone/markup/components/tabs/data",
 		"/Users/extiser/git/ozone/markup/pages",
 		"/Users/extiser/git/ozone/markup/static",
-		"/Users/extiser/git/ozone/markup/static/js",
 		"/Users/extiser/git/ozone/markup/static/js/libraries",
-		"/Users/extiser/git/ozone/markup/static/js/plugins",
 		"/Users/extiser/git/ozone/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
 		"/Users/extiser/git/ozone/markup/components/tabs/data/data.js",
+		"/Users/extiser/git/ozone/markup/pages/trainers.jade",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
 		"/Users/extiser/git/ozone/markup/components/slider/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/slider/slider.jade",
-		"/Users/extiser/git/ozone/markup/pages/index.jade",
+		"/Users/extiser/git/ozone/markup/components/slider/slider.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
 		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.js",
+		"/Users/extiser/git/ozone/markup/pages/services.jade",
+		"/Users/extiser/git/ozone/markup/pages/member-me.jade",
+		"/Users/extiser/git/ozone/markup/components/your-app/your-app.jade",
+		"/Users/extiser/git/ozone/markup/components/your-app/your-app.scss",
+		"/Users/extiser/git/ozone/markup/components/ezfacility/ezfacility.scss",
+		"/Users/extiser/git/ozone/markup/components/ezfacility/ezfacility.jade",
+		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
+		"/Users/extiser/git/ozone/markup/pages/index.jade",
+		"/Users/extiser/git/ozone/markup/pages/club.jade",
+		"/Users/extiser/git/ozone/markup/pages/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/contacts/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/contacts/contacts.scss",
+		"/Users/extiser/git/ozone/markup/components/_ui/_form.scss",
+		"/Users/extiser/git/ozone/markup/components/_ui/ui.scss",
+		"/Users/extiser/git/ozone/markup/components/clubs/clubs.jade",
+		"/Users/extiser/git/ozone/markup/components/clubs/clubs.scss",
+		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
+		"/Users/extiser/git/ozone/markup/pages/clubs.jade",
+		"/Users/extiser/git/ozone/markup/clubs.jade",
+		"/Users/extiser/git/ozone/markup/components/timetable/timetable.jade",
+		"/Users/extiser/git/ozone/markup/components/timetable/timetable.scss",
+		"/Users/extiser/git/ozone/markup/components/map/map.jade",
+		"/Users/extiser/git/ozone/markup/components/map/map.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.js",
+		"/Users/extiser/git/ozone/markup/static/scss/vars.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.jade",
+		"/Users/extiser/git/ozone/markup/components/facilities/facilities.jade",
+		"/Users/extiser/git/ozone/markup/components/facilities/facilities.scss",
+		"/Users/extiser/git/ozone/markup/pages/about.jade",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/atmosphere-select.jade",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
-		"/Users/extiser/git/ozone/markup/pages/club.jade",
-		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
-		"/Users/extiser/git/ozone/markup/components/team/team.scss",
 		"/Users/extiser/git/ozone/markup/components/team/team.js",
 		"/Users/extiser/git/ozone/markup/components/_ui/_typography.scss",
 		"/Users/extiser/git/ozone/markup/components/team/data/data.js",
@@ -627,7 +650,6 @@
 		"/Users/extiser/git/ozone/markup/components/about-content/about-content.jade",
 		"/Users/extiser/git/ozone/markup/components/about-content/about-content.scss",
 		"/Users/extiser/git/ozone/markup/components/about-club/about-club.scss",
-		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
 		"/Users/extiser/git/ozone/markup/components/change-language/change-language.scss",
 		"/Users/extiser/git/ozone/markup/components/slider/slick-global/slick-theme.scss",
 		"/Users/extiser/git/ozone/markup/components/team/team.jade",
@@ -706,35 +728,7 @@
 		"/Users/extiser/git/k-landing/markup/static/js/separate-js/svg4everybody.min.js",
 		"/Users/extiser/git/k-landing/markup/static/js/separate-js/html5shiv-3.7.2.min.js",
 		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.otf",
-		"/Users/extiser/git/k-landing/markup/components/top-menu/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-top/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-map/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-gallery/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-elite/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-education/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-about/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/header/data/data.js"
+		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.svg"
 	],
 	"find":
 	{

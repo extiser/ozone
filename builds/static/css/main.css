@@ -4229,7 +4229,7 @@ ul li:before {
   }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 735px) {
   .facilities__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -5769,21 +5769,6 @@ ul li:before {
   background-color: #abd039;
 }
 
-.timetable {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background: url(../images/assets/timetable/timetable-bg.jpg) no-repeat center;
-}
-
-.timetable__button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 .team-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5924,6 +5909,21 @@ ul li:before {
   color: #37383b;
   font-family: "GothamPro-Medium", Helvetica, Arial, sans-serif;
   font-size: 18px;
+}
+
+.timetable {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url(../images/assets/timetable/timetable-bg.jpg) no-repeat center;
+}
+
+.timetable__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .your-app {

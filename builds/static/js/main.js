@@ -16591,7 +16591,6 @@ $.each( baseEasings, function( name, easeIn ) {
 
 
 
-
 $(document).ready(function () {
   $(".jsInstagram").smoothDivScroll({
     manualContinuousScrolling: true,
@@ -16611,6 +16610,7 @@ $(document).ready(function () {
       $(".jsInstagram").smoothDivScroll("startAutoScrolling");
   });
 });
+
 
 $('.jsMenuTrigger').click(function () {
   $(this).toggleClass('_active');
