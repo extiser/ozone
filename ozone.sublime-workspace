@@ -4,16 +4,136 @@
 		"selected_items":
 		[
 			[
+				"sc",
+				"screenWidth"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"jsTabs",
+				"jsTabsContentItem"
+			],
+			[
+				"data",
+				"data-content-tab"
+			],
+			[
+				"js",
+				"jsTabsContentItem"
+			],
+			[
 				"tabs",
-				"tabs-content-item	(tabs-content.scss)"
+				"tabs-content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"yo",
+				"your-app-content\t(your-app.scss)"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"con",
+				"contacts"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"clu",
+				"clubs-info"
+			],
+			[
+				"map",
+				"map-info"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"subscriptions-lis",
+				"subscriptions-list-item"
+			],
+			[
+				"s",
+				"subscriptions-list-item"
+			],
+			[
+				"fac",
+				"facilities-item\t(facilities.scss)"
+			],
+			[
+				"b",
+				"before"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"fa",
+				"facilities-item"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"data-cont",
+				"data-content-tab\t(tabs.jade)"
 			],
 			[
 				"slid",
-				"sliderItem	(tabs.jade)"
+				"sliderItem\t(tabs.jade)"
 			],
 			[
 				"slide",
-				"sliderItem	(data.js)"
+				"sliderItem\t(data.js)"
 			],
 			[
 				"visi",
@@ -26,10 +146,6 @@
 			[
 				"conso",
 				"console.log();"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"tab",
@@ -45,19 +161,7 @@
 			],
 			[
 				"tabs-cont",
-				"tabs-content	(tabs.jade)"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"padd",
-				"padding"
+				"tabs-content\t(tabs.jade)"
 			],
 			[
 				"out",
@@ -66,10 +170,6 @@
 			[
 				"fn",
 				"font-size"
-			],
-			[
-				"js",
-				"jsTeamListItemCount"
 			],
 			[
 				"vis",
@@ -92,20 +192,12 @@
 				"PTSans-Regular"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"max-",
 				"max-width"
 			],
 			[
 				"tem",
 				"team-list"
-			],
-			[
-				"s",
-				"skills	(data.js)"
 			],
 			[
 				"tea",
@@ -116,12 +208,8 @@
 				"team-list"
 			],
 			[
-				"marign",
-				"margin-bottom"
-			],
-			[
 				"a",
-				"a	<a>"
+				"a\t<a>"
 			],
 			[
 				"c-per",
@@ -133,11 +221,11 @@
 			],
 			[
 				"margn",
-				"margin-bottom	styl"
+				"margin-bottom\tstyl"
 			],
 			[
 				"padding",
-				"padding-bottom	styl"
+				"padding-bottom\tstyl"
 			],
 			[
 				"c-spe",
@@ -146,10 +234,6 @@
 			[
 				"c-au",
 				"c-automation-accounting-top-baner"
-			],
-			[
-				"margi",
-				"margin"
 			],
 			[
 				"z",
@@ -204,12 +288,8 @@
 				"font-size"
 			],
 			[
-				"trans",
-				"transition"
-			],
-			[
 				"call",
-				"callback-form	(index.jade)"
+				"callback-form\t(index.jade)"
 			],
 			[
 				"tex",
@@ -217,7 +297,7 @@
 			],
 			[
 				"elipse",
-				"elipsecircle	(GUI.scss)"
+				"elipsecircle\t(GUI.scss)"
 			],
 			[
 				"ra",
@@ -228,16 +308,8 @@
 				"form-element"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"secti",
 				"section-contact"
-			],
-			[
-				"data",
-				"data-menuanchor"
 			],
 			[
 				"over",
@@ -245,15 +317,15 @@
 			],
 			[
 				"po",
-				"position	(slick.scss)"
+				"position\t(slick.scss)"
 			],
 			[
 				"slick-ver",
-				"slick-vertical-slide--active	(fullpage.js)"
+				"slick-vertical-slide--active\t(fullpage.js)"
 			],
 			[
 				"js-",
-				"js-slick-vertical	(slick.scss)"
+				"js-slick-vertical\t(slick.scss)"
 			],
 			[
 				"section-teachers-lis",
@@ -273,7 +345,7 @@
 			],
 			[
 				"font-fa",
-				"font-family	(mixins.scss)"
+				"font-family\t(mixins.scss)"
 			],
 			[
 				"section-elite-sli",
@@ -301,7 +373,7 @@
 			],
 			[
 				"marig",
-				"margin-top	(fullpage.scss)"
+				"margin-top\t(fullpage.scss)"
 			],
 			[
 				"bott",
@@ -345,11 +417,11 @@
 			],
 			[
 				"So",
-				"SourceSansPro-Regular	(fonts.scss)"
+				"SourceSansPro-Regular\t(fonts.scss)"
 			],
 			[
 				"Pro",
-				"ProbaPro-SemiBold	(fonts.scss)"
+				"ProbaPro-SemiBold\t(fonts.scss)"
 			],
 			[
 				"section-about-adv",
@@ -361,11 +433,11 @@
 			],
 			[
 				"Pr",
-				"ProbaPro-Light	(fonts.scss)"
+				"ProbaPro-Light\t(fonts.scss)"
 			],
 			[
 				"P",
-				"ProbaPro-SemiBold	(fonts.scss)"
+				"ProbaPro-SemiBold\t(fonts.scss)"
 			],
 			[
 				"flex",
@@ -385,7 +457,7 @@
 			],
 			[
 				"rem",
-				"rem-calc	(mixins.scss)"
+				"rem-calc\t(mixins.scss)"
 			],
 			[
 				"backgroun",
@@ -401,15 +473,11 @@
 			],
 			[
 				"he",
-				"header	(header.jade)"
+				"header\t(header.jade)"
 			],
 			[
 				"ma",
 				"margin"
-			],
-			[
-				"con",
-				"contents__item"
 			],
 			[
 				"art",
@@ -433,7 +501,7 @@
 			],
 			[
 				"ab",
-				"about-page	(about.jade)"
+				"about-page\t(about.jade)"
 			],
 			[
 				"dire",
@@ -446,79 +514,64 @@
 			[
 				"re",
 				"read-more"
-			],
-			[
-				"marin",
-				"margin-right"
-			],
-			[
-				"min",
-				"min-width"
-			],
-			[
-				"col",
-				"columns"
-			],
-			[
-				"ti",
-				"title"
-			],
-			[
-				"butt",
-				"button	(GUI.scss)"
-			],
-			[
-				"med",
-				"medium-8"
-			],
-			[
-				"fom",
-				"form__label"
-			],
-			[
-				"ex",
-				"expert-settings"
-			],
-			[
-				"e",
-				"expert-questions"
-			],
-			[
-				"row",
-				"rows"
-			],
-			[
-				"op",
-				"option"
-			],
-			[
-				"for",
-				"form__field"
-			],
-			[
-				"m",
-				"margin-top"
-			],
-			[
-				"border-bot",
-				"border-bottom"
-			],
-			[
-				"color",
-				"color"
-			],
-			[
-				"me",
-				"medium-4"
-			],
-			[
-				"al",
-				"align-bottom"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/facilities/facilities.jade",
+			"settings":
+			{
+				"buffer_size": 958,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/facilities/facilities.scss",
+			"settings":
+			{
+				"buffer_size": 1246,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/team/team.jade",
+			"settings":
+			{
+				"buffer_size": 506,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/menu/data/data.js",
+			"settings":
+			{
+				"buffer_size": 421,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "markup/components/team/team.scss",
+			"settings":
+			{
+				"buffer_size": 2271,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "markup/components/team/team.js",
+			"settings":
+			{
+				"buffer_size": 1774,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -593,41 +646,66 @@
 	[
 		"/Users/extiser/git/ozone/markup",
 		"/Users/extiser/git/ozone/markup/components",
-		"/Users/extiser/git/ozone/markup/components/head/data",
-		"/Users/extiser/git/ozone/markup/components/menu/data",
-		"/Users/extiser/git/ozone/markup/components/slider",
-		"/Users/extiser/git/ozone/markup/components/slider/data",
-		"/Users/extiser/git/ozone/markup/components/tabs/data",
+		"/Users/extiser/git/ozone/markup/components/team",
 		"/Users/extiser/git/ozone/markup/pages",
 		"/Users/extiser/git/ozone/markup/static",
 		"/Users/extiser/git/ozone/markup/static/js",
-		"/Users/extiser/git/ozone/markup/static/js/libraries",
 		"/Users/extiser/git/ozone/markup/static/js/plugins",
 		"/Users/extiser/git/ozone/markup/static/scss"
 	],
 	"file_history":
 	[
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
+		"/Users/extiser/git/ozone/markup/components/team/team.js",
+		"/Users/extiser/git/eva/markup/components/slider/slider.js",
+		"/Users/extiser/git/eva/markup/components/tabs/tabs.js",
 		"/Users/extiser/git/ozone/markup/components/tabs/data/data.js",
+		"/Users/extiser/git/ozone/markup/pages/trainers.jade",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
 		"/Users/extiser/git/ozone/markup/components/slider/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/slider/slider.jade",
-		"/Users/extiser/git/ozone/markup/pages/index.jade",
+		"/Users/extiser/git/ozone/markup/components/slider/slider.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
 		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.js",
+		"/Users/extiser/git/ozone/markup/pages/services.jade",
+		"/Users/extiser/git/ozone/markup/pages/member-me.jade",
+		"/Users/extiser/git/ozone/markup/components/your-app/your-app.jade",
+		"/Users/extiser/git/ozone/markup/components/your-app/your-app.scss",
+		"/Users/extiser/git/ozone/markup/components/ezfacility/ezfacility.scss",
+		"/Users/extiser/git/ozone/markup/components/ezfacility/ezfacility.jade",
+		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
+		"/Users/extiser/git/ozone/markup/pages/index.jade",
+		"/Users/extiser/git/ozone/markup/pages/club.jade",
+		"/Users/extiser/git/ozone/markup/pages/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/contacts/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/contacts/contacts.scss",
+		"/Users/extiser/git/ozone/markup/components/_ui/_form.scss",
+		"/Users/extiser/git/ozone/markup/components/_ui/ui.scss",
+		"/Users/extiser/git/ozone/markup/components/clubs/clubs.jade",
+		"/Users/extiser/git/ozone/markup/components/clubs/clubs.scss",
+		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
+		"/Users/extiser/git/ozone/markup/pages/clubs.jade",
+		"/Users/extiser/git/ozone/markup/clubs.jade",
+		"/Users/extiser/git/ozone/markup/components/timetable/timetable.jade",
+		"/Users/extiser/git/ozone/markup/components/timetable/timetable.scss",
+		"/Users/extiser/git/ozone/markup/components/map/map.jade",
+		"/Users/extiser/git/ozone/markup/components/map/map.scss",
+		"/Users/extiser/git/ozone/markup/components/team/team.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.js",
+		"/Users/extiser/git/ozone/markup/static/scss/vars.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.scss",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.jade",
+		"/Users/extiser/git/ozone/markup/components/facilities/facilities.jade",
+		"/Users/extiser/git/ozone/markup/components/facilities/facilities.scss",
+		"/Users/extiser/git/ozone/markup/pages/about.jade",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/atmosphere-select.jade",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
-		"/Users/extiser/git/ozone/markup/pages/club.jade",
-		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
-		"/Users/extiser/git/ozone/markup/components/team/team.scss",
-		"/Users/extiser/git/ozone/markup/components/team/team.js",
 		"/Users/extiser/git/ozone/markup/components/_ui/_typography.scss",
 		"/Users/extiser/git/ozone/markup/components/team/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/menu/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/about-content/about-content.jade",
 		"/Users/extiser/git/ozone/markup/components/about-content/about-content.scss",
 		"/Users/extiser/git/ozone/markup/components/about-club/about-club.scss",
-		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
 		"/Users/extiser/git/ozone/markup/components/change-language/change-language.scss",
 		"/Users/extiser/git/ozone/markup/components/slider/slick-global/slick-theme.scss",
 		"/Users/extiser/git/ozone/markup/components/team/team.jade",
@@ -704,37 +782,7 @@
 		"/Users/extiser/git/k-landing/markup/components/slick.js/slick.scss",
 		"/Users/extiser/git/k-landing/node_modules/slick-carousel/slick/slick.scss",
 		"/Users/extiser/git/k-landing/markup/static/js/separate-js/svg4everybody.min.js",
-		"/Users/extiser/git/k-landing/markup/static/js/separate-js/html5shiv-3.7.2.min.js",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Semibold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Regular.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/SourceSansPro-Bold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-SemiBold.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Regular.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Medium.otf",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.woff",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.svg",
-		"/Users/extiser/git/k-landing/markup/static/fonts/ProbaPro-Light.otf",
-		"/Users/extiser/git/k-landing/markup/components/top-menu/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/top-menu/top-menu.scss",
-		"/Users/extiser/git/k-landing/markup/components/section-top/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-map/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-gallery/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-elite/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-education/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/section-about/data/data.js",
-		"/Users/extiser/git/k-landing/markup/components/header/data/data.js"
+		"/Users/extiser/git/k-landing/markup/static/js/separate-js/html5shiv-3.7.2.min.js"
 	],
 	"find":
 	{
@@ -868,7 +916,7 @@
 			"'",
 			"extend",
 			"</p>",
-			"			<p>",
+			"\t\t\t<p>",
 			"@media screen and (max-width: 768px) {",
 			"@media screen and (max-width: 480px) {",
 			";\n",
@@ -968,7 +1016,7 @@
 			"__item",
 			"../fonts/unisans",
 			".similar-article",
-			"li.sidebar-nav__item\n				a(href=\"#\" ",
+			"li.sidebar-nav__item\n\t\t\t\ta(href=\"#\" ",
 			".col-xs-12.col-md-12.col-lg-11",
 			".hidden-xs.col-lg-1",
 			".hidden-xs.hidden-md.col-lg-1",
@@ -1029,8 +1077,195 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/facilities/facilities.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "markup/components/facilities/facilities.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "markup/components/team/team.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 67.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "markup/components/menu/data/data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "markup/components/team/team.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "markup/components/team/team.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								737,
+								737
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 879.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

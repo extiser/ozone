@@ -13,7 +13,7 @@ data = {
   {
     title: 'сервисы',
     slug: '#',
-    active: false
+    active: true
   },
   {
     title: 'команда',
