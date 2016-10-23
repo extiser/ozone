@@ -1,4 +1,4 @@
-$effectTransition: all 0s ease-in-out;
+$effectTransition: all .4s ease-in-out;
 
 .team-list {
   display: flex;
@@ -16,13 +16,25 @@ $effectTransition: all 0s ease-in-out;
 
   justify-content: flex-start;
   align-items: center;
+  &:after {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+
+    display: block;
+
+    width: 1px;
+    height: 100%;
+
+    content: "";
+
+    background-color: rgba(#dfdfdf, .3);
+  }
   &:hover {
     .team-list-item {
       &__img {
         img {
-          &._active {
-            filter: grayscale(0);
-          }
+          filter: grayscale(0);
         }
       }
       &__content {
@@ -58,7 +70,7 @@ $effectTransition: all 0s ease-in-out;
 
     overflow: hidden;
 
-    width: 100%;
+    width: 330px;
     height: 357px;
 
     transition: $effectTransition;

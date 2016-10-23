@@ -24,6 +24,12 @@
       padding-left: 30px;
     }
     img {
+      transition: all .2s ease-in-out;
+
+      filter: grayscale(1);
+      &:hover {
+        filter: grayscale(0);
+      }
       @media screen and (max-width: 1024px) {
         margin: 0 30px 30px 30px;
       }

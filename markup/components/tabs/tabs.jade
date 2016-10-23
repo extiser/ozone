@@ -15,7 +15,7 @@ mixin tabs-content(data, page)
       for item in tabsList
         .tabs-content-item.jsTabsContentItem(data-content-tab=item.link)
           - if (page == 'services')
-            +slider-services(data, servicesPage)
+            +slider-services(data, servicesPage)._services
           - else if (page == 'trainers')
             +slider-trainers(data, trainersPage)._trainers
           - else

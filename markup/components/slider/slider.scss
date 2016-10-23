@@ -2,7 +2,6 @@
 @import "slick-global/slick-theme.scss";
 
 .slider {
-  max-height: 630px;
   @media screen and (max-width: 740px) {
     max-height: 400px;
   }
@@ -44,6 +43,12 @@
 
         @include horizontal-center;
       }
+    }
+  }
+  &._services, &._trainers {
+    max-height: 420px;
+    .slider-img {
+      max-height: 420px;
     }
   }
 }

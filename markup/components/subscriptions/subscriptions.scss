@@ -1,4 +1,7 @@
 .subscriptions {
+  position: relative;
+  z-index: 2;
+
   padding-bottom: 50px;
   &__wrapper {
     @extend .wrapper;
@@ -11,22 +14,29 @@
 
 .subscriptions-list {
   @media screen and (min-width: 760px) {
-    display: flex;
+    .slick-track {
+      display: flex;
 
-    width: 100%;
+      width: 100%;
 
-    justify-content: space-between;
-    align-items: center;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .slick-list {
+      overflow: visible;
+    }
   }
 }
 
 .subscriptions-list-item {
+  position: relative;
+
   box-sizing: border-box;
   width: 270px;
   height: 340px;
   margin: auto;
-  padding-top: 27px;
 
+  transition: all .2s ease-in-out;
   text-align: center;
 
   font-family: $GothamPro-Light;
@@ -42,23 +52,63 @@
   &:focus {
     outline: none;
   }
+  &:hover {
+    .subscriptions-list-item__content {
+      position: absolute;
+      top: 0;
+
+      width: 100%;
+      padding-bottom: 50px;
+
+      box-shadow: inset 0 0 0 10px $green;
+
+      @include horizontal-center;
+    }
+    .subscriptions-list-item-table {
+      &__item {
+        &._hide {
+          position: relative;
+
+          visibility: visible;
+
+          opacity: 1;
+        }
+      }
+    }
+  }
   &._platinum {
-    background-color: #b1b1b8;
+    background-color: #b3b3b3;
+    .subscriptions-list-item__content {
+      background-color: #b3b3b3;
+    }
   }
   &._gold {
     height: 400px;
-    padding-top: 57px;
 
-    background-color: #dfb526;
+    background-color: #e5ba15;
+    .subscriptions-list-item__content {
+      padding-top: 57px;
+
+      background-color: #e5ba15;
+    }
   }
   &._silver {
-    background-color: #e4e4e4;
+    background-color: #6d6e71;
+    .subscriptions-list-item__content {
+      background-color: #6d6e71;
+    }
   }
   &._bronze {
-    background-color: #b55d21;
+    background-color: #c97e41;
+    .subscriptions-list-item__content {
+      background-color: #c97e41;
+    }
+  }
+  &__content {
+    padding-top: 27px;
   }
   &__title {
-    color: #36373a;
+    color: $white;
 
     font-size: 36px;
     @media screen and (min-width: 760px) and (max-width: 800px) {
@@ -68,11 +118,11 @@
 }
 
 .subscriptions-list-item-table {
-  margin-top: 85px;
+  margin-top: 125px;
   &__item {
     margin-bottom: 20px;
 
-    color: #36373a;
+    color: $white;
 
     font-size: 18px;
     @media screen and (min-width: 760px) and (max-width: 800px) {
@@ -82,6 +132,16 @@
       margin-top: 25px;
 
       font-family: $GothamPro-Medium;
+    }
+    &._hide {
+      position: absolute;
+      bottom: -100%;
+
+      visibility: hidden;
+
+      transition: all .4s ease-in-out;
+
+      opacity: 0;
     }
   }
 }

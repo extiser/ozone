@@ -20,8 +20,30 @@
   }
 }
 
+.logo-scrolled {
+  // display: none;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  width: 115px;
+  height: 70px;
+
+  background-color: $gray;
+  a {
+    display: block;
+
+    text-indent: -9999px;
+
+    @include bg($logo-o);
+    @include absolute-center;
+  }
+}
+
 .header {
   position: relative;
+  z-index: 99;
 
   display: flex;
 
@@ -35,4 +57,7 @@
 
   justify-content: space-between;
   align-items: center;
+  &.fixed {
+    position: fixed;
+  }
 }

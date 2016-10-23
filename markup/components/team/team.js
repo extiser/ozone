@@ -52,12 +52,11 @@ $(document).ready(function () {
         $(this).width((jsTeamListWidth - 693) / (jsTeamListItemCount - 1));
       });
       $(this).width(693);
-      $(this).children('.jsTeamListItemImg').width('50%').children('img').width('100%').toggleClass('_active');
     });
 
     // Mouse out
     $(".jsTeamListItem").bind("mouseout", function(){
-      $('.jsTeamListItem').width(jsTeamListWidth / jsTeamListItemCount).children('.jsTeamListItemImg').attr('style', '').children('img').attr('style', '');
+      $('.jsTeamListItem').width(jsTeamListWidth / jsTeamListItemCount);
     });
   } else {
     $('.jsTeamListItem').click(function () {

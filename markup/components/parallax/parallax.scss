@@ -3,12 +3,6 @@
 
   height: 400px;
 
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-clip: initial;
-  background-origin: initial;
-  background-size: cover;
   @media screen and (max-width: 1024px) {
     background-attachment: scroll;
     background-size: 100% auto;

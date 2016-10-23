@@ -12,22 +12,22 @@ data = {
   },
   {
     title: 'сервисы',
-    slug: '#',
-    active: true
+    slug: 'services.html',
+    active: false
   },
   {
     title: 'команда',
-    slug: '#',
+    slug: 'trainers.html',
     active: false
   },
   {
     title: 'member me',
-    slug: '#',
+    slug: 'member-me.html',
     active: false
   },
   {
     title: 'контакты',
-    slug: '#',
+    slug: 'contacts.html',
     active: false
   }
 ]};

@@ -26,7 +26,6 @@
       background-color: $green;
     }
     .instagram-block-meta {
-      top: 50% !important;
 
       visibility: visible;
 
@@ -82,7 +81,7 @@
 .instagram-block-meta {
   position: absolute;
   z-index: 0;
-  top: 150% !important;
+  top: 50% !important;
 
   visibility: hidden;
 
