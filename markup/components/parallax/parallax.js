@@ -24,4 +24,5 @@ $('.jsParallax').parallax({
   naturalHeight: 1280
 });
 
+
 $(window).trigger('resize').trigger('scroll');

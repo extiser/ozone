@@ -225,7 +225,7 @@
 
       if (this.boxOffsetBottom > scrollTop && this.boxOffsetTop <= scrollBottom) {
         this.visibility = 'visible';
-        this.mirrorTop = this.boxOffsetTop  - scrollTop;
+        this.mirrorTop = this.boxOffsetTop  - scrollTop - $('.header.fixed').height();
         this.mirrorLeft = this.boxOffsetLeft - scrollLeft;
         this.offsetTop = this.offsetBaseTop - this.mirrorTop * (1 - this.speed);
       } else {

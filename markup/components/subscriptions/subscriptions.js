@@ -1,13 +1,17 @@
 $('.jsSubscriptions').slick({
-  infinite: false,
-  slidesToShow: 4,
-  arrows: false,
-  centerMode: false,
-  speed: 600,
-  dots: false,
+  // infinite: false,
+  // slidesToShow: 4,
+  // arrows: false,
+  // centerMode: false,
+  // speed: 600,
+  // dots: false,
   responsive: [
     {
-      breakpoint: 1920,
+      breakpoint: 1980,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 760,
       settings: "unslick"
     },
     {

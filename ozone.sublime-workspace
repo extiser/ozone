@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"vis",
+				"visible"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"sub",
+				"subscriptions-list-item__content"
+			],
+			[
+				"subscriptions-lis",
+				"subscriptions-list-item"
+			],
+			[
+				"pos",
+				"posTop"
+			],
+			[
+				"po",
+				"posLeft"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"slide",
 				"slideUp"
 			],
@@ -34,10 +78,6 @@
 			[
 				"sc",
 				"screenWidth"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"text",
@@ -104,10 +144,6 @@
 				"background-color"
 			],
 			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"ease",
 				"ease-in-out"
 			],
@@ -122,10 +158,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"subscriptions-lis",
-				"subscriptions-list-item"
 			],
 			[
 				"s",
@@ -160,10 +192,6 @@
 				"sliderItem\t(tabs.jade)"
 			],
 			[
-				"visi",
-				"visible"
-			],
-			[
 				"win",
 				"winHash"
 			],
@@ -194,10 +222,6 @@
 			[
 				"fn",
 				"font-size"
-			],
-			[
-				"vis",
-				"visibility"
 			],
 			[
 				"eas",
@@ -300,10 +324,6 @@
 				"inherit"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"call",
 				"callback-form\t(index.jade)"
 			],
@@ -332,10 +352,6 @@
 				"overflow-y"
 			],
 			[
-				"po",
-				"position\t(slick.scss)"
-			],
-			[
 				"slick-ver",
 				"slick-vertical-slide--active\t(fullpage.js)"
 			],
@@ -354,10 +370,6 @@
 			[
 				"src",
 				"src=\"%=static=%images"
-			],
-			[
-				"pos",
-				"position"
 			],
 			[
 				"font-fa",
@@ -502,23 +514,20 @@
 			[
 				"site",
 				"sitemap-page-item"
-			],
-			[
-				"fo",
-				"footer-menu"
-			],
-			[
-				"max",
-				"max-width"
-			],
-			[
-				"ab",
-				"about-page\t(about.jade)"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "markup/components/menu/data/data.js",
+			"settings":
+			{
+				"buffer_size": 471,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -594,13 +603,28 @@
 		"/Users/extiser/git/ozone/markup",
 		"/Users/extiser/git/ozone/markup/components",
 		"/Users/extiser/git/ozone/markup/components/header",
+		"/Users/extiser/git/ozone/markup/components/menu",
 		"/Users/extiser/git/ozone/markup/components/menu/data",
+		"/Users/extiser/git/ozone/markup/components/subscriptions",
 		"/Users/extiser/git/ozone/markup/pages",
 		"/Users/extiser/git/ozone/markup/static",
 		"/Users/extiser/git/ozone/markup/static/scss"
 	],
 	"file_history":
 	[
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.js",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.jade",
+		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.scss",
+		"/Users/extiser/git/ozone/markup/components/map/map.scss",
+		"/Users/extiser/git/ozone/markup/components/map/map.jade",
+		"/Users/extiser/git/ozone/markup/components/contacts/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/_ui/_form.scss",
+		"/Users/extiser/git/ozone/markup/pages/contacts.jade",
+		"/Users/extiser/git/ozone/markup/components/team/team.jade",
+		"/Users/extiser/git/ozone/markup/components/team/team.js",
+		"/Users/extiser/git/ozone/markup/components/team/team.scss",
+		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
+		"/Users/extiser/git/ozone/markup/components/slider/slider.scss",
 		"/Users/extiser/git/ozone/markup/components/header/header.jade",
 		"/Users/extiser/git/ozone/markup/components/header/header.js",
 		"/Users/extiser/git/ozone/markup/components/header/header.scss",
@@ -609,24 +633,19 @@
 		"/Users/extiser/git/ozone/markup/components/partners/partners.jade",
 		"/Users/extiser/git/ozone/markup/components/partners/partners.scss",
 		"/Users/extiser/git/ozone/markup/components/instagram/instagram.scss",
-		"/Users/extiser/git/ozone/markup/components/slider/slider.scss",
 		"/Users/extiser/git/ozone/markup/components/parallax/parallax.scss",
 		"/Users/extiser/git/ozone/markup/components/parallax/parallax.jade",
 		"/Users/extiser/git/ozone/markup/components/parallax/parallax.js",
 		"/Users/extiser/git/ozone/markup/static/js/plugins/parallax.js",
 		"/Users/extiser/git/ozone/markup/components/menu/menu.jade",
 		"/Users/extiser/git/ozone/markup/components/menu/data/data.js",
-		"/Users/extiser/git/ozone/markup/components/team/team.js",
 		"/Users/extiser/git/ozone/markup/components/facilities/facilities.jade",
 		"/Users/extiser/git/ozone/markup/components/facilities/facilities.scss",
-		"/Users/extiser/git/ozone/markup/components/team/team.jade",
-		"/Users/extiser/git/ozone/markup/components/team/team.scss",
 		"/Users/extiser/git/eva/markup/components/slider/slider.js",
 		"/Users/extiser/git/eva/markup/components/tabs/tabs.js",
 		"/Users/extiser/git/ozone/markup/components/tabs/data/data.js",
 		"/Users/extiser/git/ozone/markup/pages/trainers.jade",
 		"/Users/extiser/git/ozone/markup/components/tabs/tabs-control.scss",
-		"/Users/extiser/git/ozone/markup/components/tabs/tabs.jade",
 		"/Users/extiser/git/ozone/markup/components/slider/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/slider/slider.jade",
 		"/Users/extiser/git/ozone/markup/components/tabs/tabs-content.scss",
@@ -640,22 +659,14 @@
 		"/Users/extiser/git/ozone/markup/pages/_layout.jade",
 		"/Users/extiser/git/ozone/markup/pages/index.jade",
 		"/Users/extiser/git/ozone/markup/pages/club.jade",
-		"/Users/extiser/git/ozone/markup/pages/contacts.jade",
-		"/Users/extiser/git/ozone/markup/components/contacts/contacts.jade",
 		"/Users/extiser/git/ozone/markup/components/contacts/contacts.scss",
-		"/Users/extiser/git/ozone/markup/components/_ui/_form.scss",
 		"/Users/extiser/git/ozone/markup/components/_ui/ui.scss",
 		"/Users/extiser/git/ozone/markup/components/menu/menu.scss",
 		"/Users/extiser/git/ozone/markup/pages/clubs.jade",
 		"/Users/extiser/git/ozone/markup/clubs.jade",
 		"/Users/extiser/git/ozone/markup/components/timetable/timetable.jade",
 		"/Users/extiser/git/ozone/markup/components/timetable/timetable.scss",
-		"/Users/extiser/git/ozone/markup/components/map/map.jade",
-		"/Users/extiser/git/ozone/markup/components/map/map.scss",
-		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.js",
 		"/Users/extiser/git/ozone/markup/static/scss/vars.scss",
-		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.scss",
-		"/Users/extiser/git/ozone/markup/components/subscriptions/subscriptions.jade",
 		"/Users/extiser/git/ozone/markup/pages/about.jade",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/data/data.js",
 		"/Users/extiser/git/ozone/markup/components/atmosphere-select/atmosphere-select.jade",
@@ -1023,8 +1034,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "markup/components/menu/data/data.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

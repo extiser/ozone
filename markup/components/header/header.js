@@ -1,6 +1,6 @@
 $(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
-  if (scrollTop > 0) { 
+  if (scrollTop > 70) { 
     $('.header').addClass('fixed');
     $('.logo').slideUp();
     // $('.logo-scrolled').slideDown();

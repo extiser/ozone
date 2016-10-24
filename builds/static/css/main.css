@@ -4536,6 +4536,7 @@ ul li:before {
 
 .header.fixed {
   position: fixed;
+  top: 0;
 }
 
 .instagram {
@@ -5606,7 +5607,7 @@ ul li:before {
 }
 
 @media screen and (min-width: 760px) {
-  .subscriptions-list .slick-track {
+  .subscriptions-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5747,7 +5748,7 @@ ul li:before {
 
 .subscriptions-list-item-table__item._hide {
   position: absolute;
-  bottom: -100%;
+  bottom: -400%;
   visibility: hidden;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
@@ -6004,7 +6005,7 @@ ul li:before {
   box-sizing: border-box;
   width: 330px;
   height: 357px;
-  padding: 30px;
+  padding: 20px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   opacity: 0;

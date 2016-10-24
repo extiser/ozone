@@ -13906,7 +13906,7 @@ $.each( baseEasings, function( name, easeIn ) {
 
       if (this.boxOffsetBottom > scrollTop && this.boxOffsetTop <= scrollBottom) {
         this.visibility = 'visible';
-        this.mirrorTop = this.boxOffsetTop  - scrollTop;
+        this.mirrorTop = this.boxOffsetTop  - scrollTop - $('.header.fixed').height();
         this.mirrorLeft = this.boxOffsetLeft - scrollLeft;
         this.offsetTop = this.offsetBaseTop - this.mirrorTop * (1 - this.speed);
       } else {
@@ -16997,7 +16997,7 @@ $.each( baseEasings, function( name, easeIn ) {
 
 $(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
-  if (scrollTop > 0) { 
+  if (scrollTop > 70) { 
     $('.header').addClass('fixed');
     $('.logo').slideUp();
     // $('.logo-scrolled').slideDown();
@@ -17058,6 +17058,7 @@ $('.jsParallax').parallax({
   naturalHeight: 1280
 });
 
+
 $(window).trigger('resize').trigger('scroll');
 
 $('.jsSlider').slick({
@@ -17071,15 +17072,19 @@ $('.jsSlider').slick({
   arrows: false
 });
 $('.jsSubscriptions').slick({
-  infinite: false,
-  slidesToShow: 4,
-  arrows: false,
-  centerMode: false,
-  speed: 600,
-  dots: false,
+  // infinite: false,
+  // slidesToShow: 4,
+  // arrows: false,
+  // centerMode: false,
+  // speed: 600,
+  // dots: false,
   responsive: [
     {
-      breakpoint: 1920,
+      breakpoint: 1980,
+      settings: "unslick"
+    },
+    {
+      breakpoint: 760,
       settings: "unslick"
     },
     {

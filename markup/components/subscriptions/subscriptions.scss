@@ -14,14 +14,12 @@
 
 .subscriptions-list {
   @media screen and (min-width: 760px) {
-    .slick-track {
-      display: flex;
+    display: flex;
 
-      width: 100%;
+    width: 100%;
 
-      justify-content: space-between;
-      align-items: center;
-    }
+    justify-content: space-between;
+    align-items: center;
     .slick-list {
       overflow: visible;
     }
@@ -135,7 +133,7 @@
     }
     &._hide {
       position: absolute;
-      bottom: -100%;
+      bottom: -400%;
 
       visibility: hidden;
 
