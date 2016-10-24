@@ -16979,17 +16979,6 @@ $.each( baseEasings, function( name, easeIn ) {
 
 
 
-(function () {
-  $('.select-item').hover(function () {
-    $(this).children('.select-item-list').toggleClass('_active');
-    $('.mask').show();
-  });
-  $('.mask').hover(function () {
-    $(this).hide();
-    $('.select-item').children('.select-item-list').removeClass('_active');
-  });
-})();
-
 
 
 
@@ -17027,39 +17016,21 @@ $(document).ready(function () {
   });
 });
 
-
 $('.jsMenuTrigger').click(function () {
   $(this).toggleClass('_active');
   $('.jsMenuList').slideToggle(300);
 })
-// $(document).ready(function () {
-//   $objWindow = $(window);
-//   $bgObj = $('jsParallax[data-type="background"]');
-//   $objWindow.scroll(function() {
-//     var yPos = $(this).scrollTop();
-//       $bgObj.animate({
-//         'background-position-x': '10%',
-//         'background-position-y': '20%'
-//       }, 10000, 'linear');
-//   });
-//   // $('jsParallax[data-type="background"]').each(function(){
-//   //   var $bgObj = $(this);
-//   //   $(window).scroll(function() {
-//   //     var yPos = $objWindow.scrollTop();
-//   //     var coords = '100% '+ yPos + 'px';
-//   //     $bgObj.animate({ 'background-position': coords }, 1000);
-//   //   });
-//   // });
-// });
+(function () {
+  $('.select-item').hover(function () {
+    $(this).children('.select-item-list').toggleClass('_active');
+    $('.mask').show();
+  });
+  $('.mask').hover(function () {
+    $(this).hide();
+    $('.select-item').children('.select-item-list').removeClass('_active');
+  });
+})();
 
-$('.jsParallax').parallax({
-  speed: 0.5,
-  naturalWidth: 1920,
-  naturalHeight: 1280
-});
-
-
-$(window).trigger('resize').trigger('scroll');
 
 $('.jsSlider').slick({
   infinite: true,
@@ -17230,3 +17201,33 @@ $(document).ready(function () {
   }
 });
 
+
+
+// $(document).ready(function () {
+//   $objWindow = $(window);
+//   // $bgObj = $('jsParallax[data-type="background"]');
+//   // $objWindow.scroll(function() {
+//   //   var yPos = $(this).scrollTop();
+//   //     $bgObj.animate({
+//   //       'background-position-x': '10%',
+//   //       'background-position-y': '20%'
+//   //     }, 10000, 'linear');
+//   // });
+//   $('.jsParallax').each(function() {
+//     var $bgObj = $(this);
+//     $objWindow.scroll(function() {
+//       var yPos = $objWindow.scrollTop();
+//       var coords = '100% '+ yPos + 'px';
+//       $bgObj.animate({ 'background-position': coords }, 1000);
+//     });
+//   });
+// });
+
+// $('.jsParallax').parallax({
+//   speed: 0.5,
+//   naturalWidth: 1920,
+//   naturalHeight: 1280
+// });
+
+
+// $(window).trigger('resize').trigger('scroll');

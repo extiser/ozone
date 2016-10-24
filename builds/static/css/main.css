@@ -5073,6 +5073,7 @@ ul li:before {
 .parallax {
   position: relative;
   height: 400px;
+  background-attachment: fixed;
 }
 
 @media screen and (max-width: 1024px) {
